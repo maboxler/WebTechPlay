@@ -24,6 +24,10 @@ public class Application extends Controller {
     	return ok(main.render("Welcome To UChess",init.getWTui().replaceAll(" ", "&nbsp;")));
     }
     
+      public Result wui(){   
+    	return ok(wui.render());
+    }
+    
     public Result reset(){   	
     	
     	Init.getInstance().getCc().reset();
