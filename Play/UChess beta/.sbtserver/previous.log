@@ -1,5 +1,5 @@
-New log file opened at Wed Nov 18 14:52:33 CET 2015 by 4220@3dlab1
-jvm 4220@3dlab1
+New log file opened at Wed Nov 25 12:44:23 CET 2015 by 6224@3dlab9
+jvm 6224@3dlab9
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.60-b23
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\project, returning: (uchess-beta-build)
 Loading project definition from Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@616a8aa, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@399acd76, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -67,141 +67,34 @@ Set current project to UChess beta (in build file:/Z:/5%20Semester/WebTechnologi
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@7708ff7, check cycles: false
-Total time: 0 s, completed 18.11.2015 14:52:39
-> server-post-command-cleanup
-> server-handle-next-server-request
 > {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@9825e93, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@6bf6499d, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set()
+	modified: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\JsWui.template.scala)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
+Initial directly invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\JsWui.template.scala)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set()
+All initially invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\JsWui.template.scala)
 
-Total time: 2 s, completed 18.11.2015 14:52:41
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@1cd29b73, check cycles: false
-Total time: 0 s, completed 18.11.2015 14:52:41
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@4027b191, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 1 s, completed 18.11.2015 14:52:42
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@3b845f65, check cycles: false
-Total time: 0 s, completed 18.11.2015 14:52:45
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@2588c694, check cycles: false
-Total time: 1 s, completed 18.11.2015 14:52:47
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@7300507e, check cycles: false
-Total time: 0 s, completed 18.11.2015 14:52:48
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@75954819, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\application.conf,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\application.conf)
-	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\logback.xml,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\logback.xml)
-	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\routes,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\routes)
-Total time: 4 s, completed 18.11.2015 14:52:55
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 1
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@69a0b37, check cycles: false
-Total time: 0 s, completed 18.11.2015 14:54:09
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@64e412c0, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
-
-Recompiling all 9 sources: invalidated sources (5) exceeded 50.0% of all sources
-Read from stdout: Compiling 7 Scala sources and 2 Java sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
-Compiling 7 Scala sources and 2 Java sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
+Read from stdout: Compiling 2 Scala sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
+Compiling 2 Scala sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
 Getting compiler-interface from component compiler for Scala 2.11.6
 Other repositories:
 Default repositories:
 Getting compiler-interface from component compiler for Scala 2.11.6
 Other repositories:
 Default repositories:
-Running cached compiler 4dd70f01, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Running cached compiler 51635d5a, interfacing (CompilerInterface) with Scala compiler version 2.11.6
 Calling Scala compiler with arguments  (CompilerInterface):
 	-deprecation
 	-unchecked
@@ -211,48 +104,55 @@ Calling Scala compiler with arguments  (CompilerInterface):
 	C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
 	-classpath
 	Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes;Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\lib\UChess_Gut.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\maboxler\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\maboxler\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\maboxler\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\maboxler\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\maboxler\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\maboxler\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.3.0.jar;C:\Users\maboxler\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.15.jar;C:\Users\maboxler\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\maboxler\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\maboxler\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.9.jar;C:\Users\maboxler\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\annotations\jars\annotations-2.0.1.jar;C:\Users\maboxler\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\maboxler\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.21.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\maboxler\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\maboxler\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Read from stdout: Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\routes:10: value wui is not a member of controllers.Application
-Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\routes:10: value wui is not a member of controllers.Application
-Read from stdout: GET     /wui                        controllers.Application.wui()
-GET     /wui                        controllers.Application.wui()
+Read from stdout: Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\app\views\JsWui.scala.html:20: value at is not a member of controllers.ReverseAssets
+Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\app\views\JsWui.scala.html:20: value at is not a member of controllers.ReverseAssets
+Read from stdout: 		<img src="@routes.Assets.at("public/images/blackfield.jpg")>
+    		<img src="@routes.Assets.at("public/images/blackfield.jpg")>
+Read from stdout: 		                         ^
+    		                         ^
 Read from stdout: one error found
 one error found
 Compilation failed (CompilerInterface)
 Read from stdout: (compile:compileIncremental) Compilation failed
 (compile:compileIncremental) Compilation failed
-Total time: 6 s, completed 18.11.2015 14:54:15
+Total time: 4 s, completed 25.11.2015 12:44:32
 > server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1e7ced81, check cycles: false
+> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@23efb78c, check cycles: false
+Total time: 0 s, completed 25.11.2015 12:44:32
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@3ba483ef, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
+	modified: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\JsWui.template.scala)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
+Initial directly invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\JsWui.template.scala)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
+All initially invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\JsWui.template.scala)
 
-Recompiling all 9 sources: invalidated sources (5) exceeded 50.0% of all sources
-Read from stdout: Compiling 7 Scala sources and 2 Java sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
-Compiling 7 Scala sources and 2 Java sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
+Read from stdout: Compiling 2 Scala sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
+Compiling 2 Scala sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
 Getting compiler-interface from component compiler for Scala 2.11.6
 Other repositories:
 Default repositories:
 Getting compiler-interface from component compiler for Scala 2.11.6
 Other repositories:
 Default repositories:
-Running cached compiler 38759c69, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Running cached compiler 6da3f08e, interfacing (CompilerInterface) with Scala compiler version 2.11.6
 Calling Scala compiler with arguments  (CompilerInterface):
 	-deprecation
 	-unchecked
@@ -262,48 +162,55 @@ Calling Scala compiler with arguments  (CompilerInterface):
 	C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
 	-classpath
 	Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes;Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\lib\UChess_Gut.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\maboxler\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\maboxler\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\maboxler\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\maboxler\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\maboxler\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\maboxler\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.3.0.jar;C:\Users\maboxler\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.15.jar;C:\Users\maboxler\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\maboxler\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\maboxler\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.9.jar;C:\Users\maboxler\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\annotations\jars\annotations-2.0.1.jar;C:\Users\maboxler\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\maboxler\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.21.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\maboxler\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\maboxler\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Read from stdout: Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\routes:10: value wui is not a member of controllers.Application
-Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\routes:10: value wui is not a member of controllers.Application
-Read from stdout: GET     /wui                        controllers.Application.wui()
-GET     /wui                        controllers.Application.wui()
+Read from stdout: Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\app\views\JsWui.scala.html:20: value at is not a member of controllers.ReverseAssets
+Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\app\views\JsWui.scala.html:20: value at is not a member of controllers.ReverseAssets
+Read from stdout: 		<img src="@routes.Assets.at("public/images/blackfield.jpg")>
+    		<img src="@routes.Assets.at("public/images/blackfield.jpg")>
+Read from stdout: 		                         ^
+    		                         ^
 Read from stdout: one error found
 one error found
 Compilation failed (CompilerInterface)
 Read from stdout: (compile:compileIncremental) Compilation failed
 (compile:compileIncremental) Compilation failed
-Total time: 4 s, completed 18.11.2015 14:54:36
+Total time: 2 s, completed 25.11.2015 12:44:34
 > server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@704c0b59, check cycles: false
+Total time: 0 s, completed 25.11.2015 12:44:34
+> server-post-command-cleanup
+> server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1e1eddc3, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@169add13, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\app\controllers\Application.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
+	modified: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\JsWui.template.scala)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\app\controllers\Application.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
+Initial directly invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\JsWui.template.scala)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\app\controllers\Application.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
+All initially invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\JsWui.template.scala)
 
-Recompiling all 9 sources: invalidated sources (6) exceeded 50.0% of all sources
-Read from stdout: Compiling 7 Scala sources and 2 Java sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
-Compiling 7 Scala sources and 2 Java sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
+Read from stdout: Compiling 2 Scala sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
+Compiling 2 Scala sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
 Getting compiler-interface from component compiler for Scala 2.11.6
 Other repositories:
 Default repositories:
 Getting compiler-interface from component compiler for Scala 2.11.6
 Other repositories:
 Default repositories:
-Running cached compiler 517c4afc, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Running cached compiler 25fb7134, interfacing (CompilerInterface) with Scala compiler version 2.11.6
 Calling Scala compiler with arguments  (CompilerInterface):
 	-deprecation
 	-unchecked
@@ -313,206 +220,44 @@ Calling Scala compiler with arguments  (CompilerInterface):
 	C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
 	-classpath
 	Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes;Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\lib\UChess_Gut.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\maboxler\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\maboxler\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\maboxler\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\maboxler\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\maboxler\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\maboxler\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.3.0.jar;C:\Users\maboxler\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.15.jar;C:\Users\maboxler\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\maboxler\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\maboxler\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.9.jar;C:\Users\maboxler\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\annotations\jars\annotations-2.0.1.jar;C:\Users\maboxler\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\maboxler\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.21.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\maboxler\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\maboxler\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Scala compilation took 4.717571196 s
-Attempting to call com.sun.tools.javac.api.JavacTool@75bca790 directly...
-Java compilation took 0.576440614 s
-Java analysis took 0.028064884 s
-Java compile + analysis took 0.631137823 s
-Invalidating Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala...
-Invalidating (transitively) by inheritance from Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala...
-Initial set of included nodes: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala)
-Invalidated by transitive inheritance dependency: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala)
-The Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala source file has the following regular definitions changed:
-	wui.
-All member reference dependencies will be considered within this context.
-The following modified names cause invalidation of Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala: Set(wui)
-None of the modified names appears in Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\index.template.scala. This dependency is not being considered for invalidation.
-None of the modified names appears in Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\main.template.scala. This dependency is not being considered for invalidation.
-Invalidating Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala...
-Invalidating (transitively) by inheritance from Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala...
-Initial set of included nodes: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
-Invalidated by transitive inheritance dependency: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
-The Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala source file has the following regular definitions changed:
-	wui.
-All member reference dependencies will be considered within this context.
-New invalidations:
-	Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala)
-Initial set of included nodes: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala)
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 8 s, completed 18.11.2015 14:55:29
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@2a4c88c7, check cycles: false
-Total time: 0 s, completed 18.11.2015 14:55:35
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@1109f7a, check cycles: false
-Total time: 0 s, completed 18.11.2015 14:55:37
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@dada63, check cycles: false
-Total time: 0 s, completed 18.11.2015 14:55:37
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@2d54ec3d, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\application.conf,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\application.conf)
-	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\logback.xml,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\logback.xml)
-	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\routes,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\routes)
-Total time: 4 s, completed 18.11.2015 14:55:46
-> server-post-command-cleanup
-> server-handle-next-server-request
-> eclipse
-About to create Eclipse project files for your project(s).
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@616a8aa, check cycles: false
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@616a8aa, check cycles: false
-External dependencies for configuration 'test' and withSource 'false' and withJavadoc 'false' and withBundledScalaContainers'true': Success(List(Lib(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\lib\UChess_Gut.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar), Lib(C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar), Lib(C:\Users\maboxler\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar), Lib(C:\Users\maboxler\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar), Lib(C:\Users\maboxler\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar), Lib(C:\Users\maboxler\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.3.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.15.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar), Lib(C:\Users\maboxler\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.1.6.RELEASE.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.1.6.RELEASE.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.1.6.RELEASE.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.9.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\annotations\jars\annotations-2.0.1.jar), Lib(C:\Users\maboxler\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.1.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.21.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar), Lib(C:\Users\maboxler\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar), Lib(C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar), Lib(C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-test_2.11\jars\play-test_2.11-2.4.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.hamcrest\hamcrest-core\jars\hamcrest-core-1.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.novocode\junit-interface\jars\junit-interface-0.11.jar), Lib(C:\Users\maboxler\.ivy2\cache\junit\junit\jars\junit-4.11.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.scala-sbt\test-interface\jars\test-interface-1.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.fluentlenium\fluentlenium-core\jars\fluentlenium-core-0.10.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.seleniumhq.selenium\selenium-java\jars\selenium-java-2.44.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.seleniumhq.selenium\selenium-chrome-driver\jars\selenium-chrome-driver-2.44.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.seleniumhq.selenium\selenium-remote-driver\jars\selenium-remote-driver-2.44.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\cglib\cglib-nodep\jars\cglib-nodep-2.1_3.jar), Lib(C:\Users\maboxler\.ivy2\cache\com.google.code.gson\gson\jars\gson-2.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.seleniumhq.selenium\selenium-api\jars\selenium-api-2.44.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.3.4.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.3.2.jar), Lib(C:\Users\maboxler\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.apache.commons\commons-exec\jars\commons-exec-1.1.jar), Lib(C:\Users\maboxler\.ivy2\cache\net.java.dev.jna\jna\jars\jna-3.4.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\net.java.dev.jna\platform\jars\platform-3.4.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.seleniumhq.selenium\selenium-htmlunit-driver\jars\selenium-htmlunit-driver-2.44.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\net.sourceforge.htmlunit\htmlunit\jars\htmlunit-2.15.jar), Lib(C:\Users\maboxler\.ivy2\cache\xalan\xalan\jars\xalan-2.7.1.jar), Lib(C:\Users\maboxler\.ivy2\cache\xalan\serializer\jars\serializer-2.7.1.jar), Lib(C:\Users\maboxler\.ivy2\cache\commons-collections\commons-collections\jars\commons-collections-3.2.1.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpmime\jars\httpmime-4.3.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\net.sourceforge.htmlunit\htmlunit-core-js\jars\htmlunit-core-js-2.15.jar), Lib(C:\Users\maboxler\.ivy2\cache\net.sourceforge.nekohtml\nekohtml\jars\nekohtml-1.9.21.jar), Lib(C:\Users\maboxler\.ivy2\cache\net.sourceforge.cssparser\cssparser\jars\cssparser-0.9.14.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.w3c.css\sac\jars\sac-1.3.jar), Lib(C:\Users\maboxler\.ivy2\cache\commons-io\commons-io\jars\commons-io-2.4.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.eclipse.jetty\jetty-websocket\jars\jetty-websocket-8.1.15.v20140411.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.eclipse.jetty\jetty-util\jars\jetty-util-8.1.15.v20140411.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.eclipse.jetty\jetty-io\jars\jetty-io-8.1.15.v20140411.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.eclipse.jetty\jetty-http\jars\jetty-http-8.1.15.v20140411.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.seleniumhq.selenium\selenium-firefox-driver\jars\selenium-firefox-driver-2.44.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.seleniumhq.selenium\selenium-ie-driver\jars\selenium-ie-driver-2.44.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.seleniumhq.selenium\selenium-safari-driver\jars\selenium-safari-driver-2.44.0.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.webbitserver\webbit\jars\webbit-0.4.14.jar), Lib(C:\Users\maboxler\.ivy2\cache\org.seleniumhq.selenium\selenium-support\jars\selenium-support-2.44.0.jar)))
-Project dependencies for configuration 'compile': Success(List())
-Project dependencies for configuration 'test': Success(List())
-Successfully created Eclipse project files for project(s):
-UChess beta
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1be32f9b, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
-
-Recompiling all 9 sources: invalidated sources (5) exceeded 50.0% of all sources
-Read from stdout: Compiling 7 Scala sources and 2 Java sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
-Compiling 7 Scala sources and 2 Java sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 9660292, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
-	-classpath
-	Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes;Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\lib\UChess_Gut.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\maboxler\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\maboxler\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\maboxler\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\maboxler\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\maboxler\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\maboxler\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.3.0.jar;C:\Users\maboxler\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.15.jar;C:\Users\maboxler\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\maboxler\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\maboxler\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.9.jar;C:\Users\maboxler\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\annotations\jars\annotations-2.0.1.jar;C:\Users\maboxler\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\maboxler\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.21.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\maboxler\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\maboxler\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Scala compilation took 3.200396675 s
-Attempting to call com.sun.tools.javac.api.JavacTool@1cd56608 directly...
-Java compilation took 0.196620271 s
-Java analysis took 0.016199162 s
-Java compile + analysis took 0.237377567 s
+Scala compilation took 2.577432517 s
 New invalidations:
 	Set()
 Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-
-Canceling execution...
-Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@379de3ad rejected from java.util.concurrent.ThreadPoolExecutor@644b2c7e[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 125]
-java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@379de3ad rejected from java.util.concurrent.ThreadPoolExecutor@644b2c7e[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 125]
-Use 'last' for the full log.
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 2
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@3bec1790, check cycles: false
-Total time: 0 s, completed 18.11.2015 14:58:33
-> server-post-command-cleanup
-> server-handle-next-server-request
-> jobStop 2
-Evaluating tasks: *:jobStop
-Running task... Cancel: sbt.server.ServerTaskCancellation@2de15319, check cycles: false
-Exception in thread "sbt-bg-threads-2" java.lang.Error: java.lang.InterruptedException: sleep interrupted
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: java.lang.InterruptedException: sleep interrupted
-	at java.lang.Thread.sleep(Native Method)
-	at play.sbt.forkrun.PlayForkProcess$.timedWaitFor(PlayForkProcess.scala:80)
-	at play.sbt.forkrun.PlayForkProcess$.play$sbt$forkrun$PlayForkProcess$$stop$1(PlayForkProcess.scala:54)
-	at play.sbt.forkrun.PlayForkProcess$.run(PlayForkProcess.scala:70)
-	at play.sbt.forkrun.PlayForkProcess$.apply(PlayForkProcess.scala:35)
-	at play.sbt.forkrun.PlayForkRun$$anonfun$backgroundForkRunTask$1$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.apply(PlayForkRun.scala:108)
-	at play.sbt.forkrun.PlayForkRun$$anonfun$backgroundForkRunTask$1$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.apply(PlayForkRun.scala:107)
-	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
-	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	... 2 more
-Total time: 0 s, completed 18.11.2015 14:58:34
+Total time: 4 s, completed 25.11.2015 12:45:35
 > server-post-command-cleanup
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@20dc4362, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@51020cf1, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
-Removed products: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_move3_invoker$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\index_Scope0$index.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\index_Scope0$index$$anonfun$f$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\main_Scope0$main.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\wui_Scope0$wui$$anonfun$apply$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\index_Scope0.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\wui.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_reset2_invoker$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\main_Scope0.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\main_Scope0$main$$anonfun$f$1$$anonfun$apply$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\controllers\ReverseApplication.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Assets_versioned5_invoker$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\main.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_game1_invoker$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\index$.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\wui_Scope0.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$6$$anonfun$apply$6.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$6.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\main_Scope0$main$$anonfun$f$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\wui$.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\main_Scope0$.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\controllers\ReverseAssets.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\index.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$5.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\RoutesPrefix.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_wui4_invoker$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\wui_Scope0$wui$$anonfun$apply$1$$anonfun$apply$2.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\wui_Scope0$.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\controllers\javascript\ReverseApplication.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\index_Scope0$.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\main$.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\RoutesPrefix$$anonfun$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\controllers\javascript\ReverseAssets.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_index0_invoker$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$5.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\wui_Scope0$wui$$anonfun$f$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\views\html\wui_Scope0$wui.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\Routes$$anonfun$documentation$1.class, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\router\RoutesPrefix$.class)
+	modified: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\JsWui.template.scala)
+Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
+Initial directly invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\JsWui.template.scala)
 
 Sources indirectly invalidated by:
-	product: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\main.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\index.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
+	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\Routes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\main.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\index.template.scala, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\controllers\routes.java, Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\routes\main\router\RoutesPrefix.scala)
+All initially invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\JsWui.template.scala)
 
-Recompiling all 9 sources: invalidated sources (8) exceeded 50.0% of all sources
-Read from stdout: Compiling 7 Scala sources and 2 Java sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
-Compiling 7 Scala sources and 2 Java sources to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
+Read from stdout: Compiling 1 Scala source to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
+Compiling 1 Scala source to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
 Getting compiler-interface from component compiler for Scala 2.11.6
 Other repositories:
 Default repositories:
 Getting compiler-interface from component compiler for Scala 2.11.6
 Other repositories:
 Default repositories:
-Running cached compiler 36cc3540, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Running cached compiler 2a790bd6, interfacing (CompilerInterface) with Scala compiler version 2.11.6
 Calling Scala compiler with arguments  (CompilerInterface):
 	-deprecation
 	-unchecked
@@ -522,67 +267,19 @@ Calling Scala compiler with arguments  (CompilerInterface):
 	C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
 	-classpath
 	Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes;Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\lib\UChess_Gut.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\maboxler\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\maboxler\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\maboxler\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\maboxler\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\maboxler\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\maboxler\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.3.0.jar;C:\Users\maboxler\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.15.jar;C:\Users\maboxler\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\maboxler\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\maboxler\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.9.jar;C:\Users\maboxler\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\annotations\jars\annotations-2.0.1.jar;C:\Users\maboxler\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\maboxler\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.21.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\maboxler\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\maboxler\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Scala compilation took 2.651213226 s
-Attempting to call com.sun.tools.javac.api.JavacTool@582b1d5f directly...
-Java compilation took 0.189597751 s
-Java analysis took 0.016993507 s
-Java compile + analysis took 0.230793897 s
+Scala compilation took 1.115398049 s
 New invalidations:
 	Set()
 Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 5 s, completed 18.11.2015 14:58:46
+Total time: 2 s, completed 25.11.2015 12:45:57
 > server-post-command-cleanup
 > server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@23c8e720, check cycles: false
-Total time: 0 s, completed 18.11.2015 14:58:47
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@33b59f3, check cycles: false
-Total time: 1 s, completed 18.11.2015 14:58:50
-> server-post-command-cleanup
-> server-handle-next-server-request
-> root/playForkNotifyStart http://localhost:9000
-Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@3bfe9462, check cycles: false
-Total time: 0 s, completed 18.11.2015 14:58:51
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@4512251b, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\application.conf,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\application.conf)
-	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\logback.xml,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\logback.xml)
-	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\routes,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\routes)
-Total time: 4 s, completed 18.11.2015 14:58:56
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@7d833b15, check cycles: false
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7bd660bc, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -607,7 +304,7 @@ Default repositories:
 Getting compiler-interface from component compiler for Scala 2.11.6
 Other repositories:
 Default repositories:
-Running cached compiler 2dc5c62, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Running cached compiler 5cfe0f09, interfacing (CompilerInterface) with Scala compiler version 2.11.6
 Calling Scala compiler with arguments  (CompilerInterface):
 	-deprecation
 	-unchecked
@@ -617,19 +314,37 @@ Calling Scala compiler with arguments  (CompilerInterface):
 	C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
 	-classpath
 	Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes;Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\lib\UChess_Gut.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\maboxler\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\maboxler\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\maboxler\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\maboxler\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\maboxler\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\maboxler\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.3.0.jar;C:\Users\maboxler\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.15.jar;C:\Users\maboxler\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\maboxler\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\maboxler\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.9.jar;C:\Users\maboxler\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\annotations\jars\annotations-2.0.1.jar;C:\Users\maboxler\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\maboxler\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.21.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\maboxler\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\maboxler\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Scala compilation took 1.610681419 s
+Scala compilation took 1.291942478 s
 New invalidations:
 	Set()
 Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 4 s, completed 18.11.2015 15:03:17
+Total time: 2 s, completed 25.11.2015 12:46:16
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@58d84d21, check cycles: false
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@33708f1a, check cycles: false
+Total time: 0 s, completed 25.11.2015 12:46:18
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@1d92b6b9, check cycles: false
+Total time: 1 s, completed 25.11.2015 12:46:20
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@6e7574f9, check cycles: false
+Total time: 0 s, completed 25.11.2015 12:46:21
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@4b279c0, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -646,13 +361,116 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed 18.11.2015 15:03:18
+Copy resource mappings: 
+	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\application.conf,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\application.conf)
+	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\logback.xml,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\logback.xml)
+	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\routes,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\routes)
+Total time: 4 s, completed 25.11.2015 12:46:26
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@614cc470, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\twirl\main\views\html\wui.template.scala)
+
+Read from stdout: Compiling 1 Scala source to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
+Compiling 1 Scala source to Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 369be1fb, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes;Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\lib\UChess_Gut.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\maboxler\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\maboxler\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\maboxler\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\maboxler\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\maboxler\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\maboxler\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\maboxler\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.3.0.jar;C:\Users\maboxler\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.15.jar;C:\Users\maboxler\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.3.Final.jar;C:\Users\maboxler\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\maboxler\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.0.0.jar;C:\Users\maboxler\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.1.6.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.9.jar;C:\Users\maboxler\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\annotations\jars\annotations-2.0.1.jar;C:\Users\maboxler\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.1.jar;C:\Users\maboxler\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.3.jar;C:\Users\maboxler\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.21.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\maboxler\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\maboxler\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\maboxler\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\maboxler\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\maboxler\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 1.096035449 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\application.conf,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\application.conf)
+	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\logback.xml,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\logback.xml)
+	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\routes,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\routes)
+Total time: 4 s, completed 25.11.2015 12:46:58
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@6806bdb8, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\application.conf,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\application.conf)
+	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\logback.xml,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\logback.xml)
+	(Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\conf\routes,Z:\5 Semester\WebTechnologien\Git Play\WebTechPlay\Play\UChess beta\target\scala-2.11\classes\routes)
+Total time: 4 s, completed 25.11.2015 12:47:02
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@530edaa6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 25.11.2015 12:48:07
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/Z:/5%20Semester/WebTechnologien/Git%20Play/WebTechPlay/Play/UChess%20beta/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@1b4e4247, check cycles: false
-Total time: 0 s, completed 18.11.2015 15:03:18
+Running task... Cancel: sbt.server.ServerTaskCancellation@404b343c, check cycles: false
+Total time: 0 s, completed 25.11.2015 12:48:07
 > server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
@@ -661,4 +479,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 4220@3dlab1 logs at Wed Nov 18 15:03:18 CET 2015, goodbye.
+Closing the 6224@3dlab9 logs at Wed Nov 25 12:48:11 CET 2015, goodbye.
