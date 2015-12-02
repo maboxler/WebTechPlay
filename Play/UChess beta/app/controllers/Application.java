@@ -30,6 +30,10 @@ public class Application extends Controller {
       public Result wui(){   
     	return ok(wui.render());
     }
+      
+      public Result wuii(){   
+      	return ok(ng_wui.render());
+      }
     
     public Result reset(){   	
     	
