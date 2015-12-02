@@ -6,6 +6,9 @@ import htwg.se.chess.Init;
 import play.*;
 import play.mvc.*;
 import views.html.*;
+import play.mvc.WebSocket;
+import play.libs.F.Callback;
+import play.libs.F.Callback0;
 
 public class Application extends Controller {
 	
@@ -41,5 +44,23 @@ public class Application extends Controller {
     	
     	return ok(main.render("WTUI",Init.getInstance().getWTui().replaceAll(" ", "&nbsp;")));
     }
+    
+    
+    public WebSocket<String> webSocket() {
+        return new WebSocket<String>() {
+            public void onReady(WebSocket.In<String> in, WebSocket.Out<String> out) {
+                in.onMessage(new Callback<String>() {
+                        public void invoke(String event) {
+                            out.write("Nachricht erhalten");
+                        }
+                    });
+                in.onClose(new Callback0() {
+                        public void invoke() { out.write("und Tschues");}
+                    });
+            }
+        };
+    }
+
+    
 
 }

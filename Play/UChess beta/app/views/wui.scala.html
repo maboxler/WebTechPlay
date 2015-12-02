@@ -72,11 +72,22 @@
     		}
     		
     		function move() {
+    		    socket.send('bla');
     		    alert(this.id);
     		}
     		
+    		var socket;
+    		
     		$(document).ready(function() {
+                
+                socket = new WebSocket("ws://localhost:9000/socket");  
+                socket.onopen = function(){ alert("Mit Socket verbunden"); };  
+                socket.onmessage = function(message){ alert("Nachricht: " + message.data);}; 
+                socket.onerror = function(){ alert("Fehler aufgetrreten"); };  
+                socket.onclose = function(){ alert("Server hat verbindung beendet");};
+
                 $('.field').on('click', move);
+    
             });
         </script>
     </head>
