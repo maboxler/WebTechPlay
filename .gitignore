@@ -23,6 +23,7 @@ dump
 .sbtserver/
 RUNNING_PID
 Play/"UChess beta"/.sbtserver/connections/master.log
+Play/UChess beta/.sbtserver/connections/master.log
 
 
 *.pydevproject
