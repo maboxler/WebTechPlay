@@ -1,11 +1,7 @@
-	    #fields {
-	        width: 300px;
-	    }
-	    
-	    .field {
-	        display: block;
-	        float: left;
-	        width: 100px;
-	        height: 100px;
-            margin: 0px;
-	    }
+.field {
+
+    width:              50px;
+    height:             100px;
+    margin:             0px;
+    padding:            0px;
+}

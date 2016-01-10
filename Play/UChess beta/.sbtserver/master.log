@@ -216,3 +216,760 @@ Copy resource mappings:
 Total time: 1 s, completed 10.01.2016 16:29:44
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@16ee45e3, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 0 s, completed 10.01.2016 16:33:09
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@78767f61, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 5562e3bf, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/xy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/lib/UChess_Gut.jar:/home/xy/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/xy/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/xy/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/xy/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/xy/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/home/xy/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/xy/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/xy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/xy/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/xy/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/xy/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/xy/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/xy/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/xy/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/xy/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/xy/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/home/xy/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/home/xy/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/home/xy/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/xy/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/home/xy/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/home/xy/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/home/xy/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar:/home/xy/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/home/xy/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/xy/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/xy/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/home/xy/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/home/xy/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/xy/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/xy/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 2.737522149 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 4 s, completed 10.01.2016 16:34:12
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@16c39259, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 6d04c164, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/xy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/lib/UChess_Gut.jar:/home/xy/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/xy/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/xy/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/xy/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/xy/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/home/xy/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/xy/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/xy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/xy/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/xy/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/xy/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/xy/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/xy/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/xy/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/xy/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/xy/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/home/xy/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/home/xy/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/home/xy/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/xy/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/home/xy/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/home/xy/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/home/xy/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar:/home/xy/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/home/xy/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/xy/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/xy/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/home/xy/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/home/xy/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/xy/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/xy/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 0.790613134 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 1 s, completed 10.01.2016 16:34:21
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@129d098a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 4d20edd5, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/xy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/lib/UChess_Gut.jar:/home/xy/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/xy/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/xy/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/xy/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/xy/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/home/xy/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/xy/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/xy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/xy/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/xy/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/xy/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/xy/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/xy/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/xy/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/xy/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/xy/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/home/xy/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/home/xy/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/home/xy/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/xy/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/home/xy/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/home/xy/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/home/xy/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar:/home/xy/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/home/xy/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/xy/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/xy/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/home/xy/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/home/xy/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/xy/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/xy/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 0.721627925 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 1 s, completed 10.01.2016 16:34:51
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@3f2bba99, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 2a4bae18, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/xy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/lib/UChess_Gut.jar:/home/xy/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/xy/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/xy/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/xy/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/xy/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/home/xy/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/xy/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/xy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/xy/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/xy/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/xy/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/xy/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/xy/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/xy/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/xy/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/xy/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/home/xy/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/home/xy/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/home/xy/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/xy/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/home/xy/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/home/xy/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/home/xy/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar:/home/xy/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/home/xy/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/xy/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/xy/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/home/xy/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/home/xy/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/xy/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/xy/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 0.667849354 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 1 s, completed 10.01.2016 16:35:47
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@9369a8d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 3863c0fd, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/xy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/lib/UChess_Gut.jar:/home/xy/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/xy/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/xy/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/xy/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/xy/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/home/xy/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/xy/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/xy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/xy/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/xy/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/xy/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/xy/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/xy/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/xy/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/xy/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/xy/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/home/xy/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/home/xy/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/home/xy/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/xy/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/home/xy/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/home/xy/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/home/xy/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar:/home/xy/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/home/xy/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/xy/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/xy/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/home/xy/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/home/xy/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/xy/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/xy/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 0.696609823 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 1 s, completed 10.01.2016 16:36:44
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2ebd8dcb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler e9cf088, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/xy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/lib/UChess_Gut.jar:/home/xy/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/xy/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/xy/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/xy/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/xy/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/home/xy/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/xy/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/xy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/xy/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/xy/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/xy/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/xy/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/xy/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/xy/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/xy/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/xy/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/home/xy/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/home/xy/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/home/xy/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/xy/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/home/xy/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/home/xy/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/home/xy/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar:/home/xy/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/home/xy/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/xy/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/xy/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/home/xy/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/home/xy/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/xy/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/xy/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 0.648227907 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 1 s, completed 10.01.2016 16:40:43
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@512783a1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 0 s, completed 10.01.2016 16:41:06
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@51aa6e94, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 0 s, completed 10.01.2016 16:41:16
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@55cf2b6c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 0 s, completed 10.01.2016 16:41:29
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@31eaa756, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 0 s, completed 10.01.2016 16:41:40
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@1e468cad, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 0 s, completed 10.01.2016 16:41:48
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@36086384, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 0 s, completed 10.01.2016 16:42:14
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@4684506a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 0 s, completed 10.01.2016 16:42:26
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2d8c3609, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 7f37c59, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/xy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/lib/UChess_Gut.jar:/home/xy/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/xy/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/xy/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/xy/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/xy/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/home/xy/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/xy/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/xy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/xy/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/xy/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/xy/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/xy/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/xy/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/xy/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/xy/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/xy/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/home/xy/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/home/xy/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/home/xy/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/xy/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/home/xy/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/home/xy/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/home/xy/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar:/home/xy/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/home/xy/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/xy/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/xy/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/home/xy/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/home/xy/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/xy/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/xy/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 0.742471108 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 1 s, completed 10.01.2016 16:43:29
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@cabc1c9, check cycles: false
+
+Initial source changes: 
+	removed:Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+	added: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_strictlyCss.template.scala)
+	modified: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/index.template.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/router/Routes.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/index.template.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_strictlyCss.template.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/router/Routes.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/index.template.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_strictlyCss.template.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/router/Routes.scala)
+
+Recompiling all 13 sources: invalidated sources (10) exceeded 50.0% of all sources
+Read from stdout: Compiling 11 Scala sources and 2 Java sources to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Compiling 11 Scala sources and 2 Java sources to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 541c155a, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/xy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/lib/UChess_Gut.jar:/home/xy/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/xy/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/xy/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/xy/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/xy/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/home/xy/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/xy/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/xy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/xy/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/xy/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/xy/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/xy/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/xy/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/xy/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/xy/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/xy/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/home/xy/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/home/xy/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/home/xy/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/xy/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/home/xy/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/home/xy/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/home/xy/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar:/home/xy/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/home/xy/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/xy/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/xy/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/home/xy/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/home/xy/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/xy/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/xy/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 2.467948514 s
+Attempting to call com.sun.tools.javac.api.JavacTool@4343f197 directly...
+Java compilation took 0.426249407 s
+Java analysis took 0.104557165 s
+Java compile + analysis took 0.538430362 s
+Invalidating /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java...
+Invalidating (transitively) by inheritance from /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java...
+Initial set of included nodes: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java)
+Invalidated by transitive inheritance dependency: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java)
+The /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java source file has the following regular definitions changed:
+	wui_newCss, version01_strictlyCss.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java
+The following modified names cause invalidation of /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/router/Routes.scala: Set(version01_strictlyCss)
+Invalidating /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala...
+Invalidating (transitively) by inheritance from /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala...
+Initial set of included nodes: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala)
+Invalidated by transitive inheritance dependency: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala)
+The /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala source file has the following regular definitions changed:
+	notify, format, version01_pureCss_Scope0, wait, $asInstanceOf, productArity, equals, version01_pureCss, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, <init>, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.
+All member reference dependencies will be considered within this context.
+Invalidating /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala...
+Invalidating (transitively) by inheritance from /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala...
+Initial set of included nodes: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+Invalidated by transitive inheritance dependency: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala)
+The /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui_newCss.template.scala source file has the following regular definitions changed:
+	notify, format, wait, $asInstanceOf, productArity, equals, wui_newCss, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, wui_newCss_Scope0, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, <init>, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.
+All member reference dependencies will be considered within this context.
+Invalidating /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...
+Invalidating (transitively) by inheritance from /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...
+Initial set of included nodes: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)
+Invalidated by transitive inheritance dependency: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)
+The /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala source file has the following regular definitions changed:
+	version01_strictlyCss, wui_newCss.
+All member reference dependencies will be considered within this context.
+None of the modified names appears in /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui.template.scala. This dependency is not being considered for invalidation.
+None of the modified names appears in /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/JsWui.template.scala. This dependency is not being considered for invalidation.
+None of the modified names appears in /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/ng_wui.template.scala. This dependency is not being considered for invalidation.
+None of the modified names appears in /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/index.template.scala. This dependency is not being considered for invalidation.
+None of the modified names appears in /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala. This dependency is not being considered for invalidation.
+The following modified names cause invalidation of /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_strictlyCss.template.scala: Set(version01_strictlyCss)
+Name hashing optimization doesn't apply to non-Scala dependency: /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java
+None of the modified names appears in /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/main.template.scala. This dependency is not being considered for invalidation.
+Invalidating /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...
+Invalidating (transitively) by inheritance from /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...
+Initial set of included nodes: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+Invalidated by transitive inheritance dependency: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
+The /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala source file has the following regular definitions changed:
+	version01_strictlyCss, wui_newCss.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java
+Invalidating /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_strictlyCss.template.scala...
+Invalidating (transitively) by inheritance from /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_strictlyCss.template.scala...
+Initial set of included nodes: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_strictlyCss.template.scala)
+Invalidated by transitive inheritance dependency: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_strictlyCss.template.scala)
+The /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_strictlyCss.template.scala source file has the following regular definitions changed:
+	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, <init>, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, version01_strictlyCss_Scope0, render, ne, version01_strictlyCss, eq, productIterator, ##, finalize, productElement, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java
+New invalidations:
+	Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/router/Routes.scala)
+Initial set of included nodes: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/router/Routes.scala)
+Including /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui.template.scala by /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java
+Including /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java by /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/wui.template.scala
+Including /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/router/Routes.scala by /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java
+Including /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/JsWui.template.scala by /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java
+Including /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/ng_wui.template.scala by /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java
+Including /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/index.template.scala by /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java
+Including /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala by /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java
+Including /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_strictlyCss.template.scala by /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java
+Including /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/main.template.scala by /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/routes/main/controllers/routes.java
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/app/controllers/Application.java, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala, /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_strictlyCss.template.scala)
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 4 s, completed 10.01.2016 16:47:01
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2e5eed43, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 0 s, completed 10.01.2016 16:47:08
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess%20beta/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@19776c44, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/twirl/main/views/html/version01_pureCss.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Compiling 1 Scala source to /home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 79123b1e, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/xy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes:/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/lib/UChess_Gut.jar:/home/xy/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/xy/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.3.jar:/home/xy/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/xy/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.3.jar:/home/xy/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/home/xy/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/xy/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/home/xy/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.3.jar:/home/xy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/xy/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/home/xy/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/home/xy/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/xy/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/xy/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/xy/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/xy/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/xy/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/xy/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/xy/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.3.jar:/home/xy/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/home/xy/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/home/xy/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/home/xy/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/xy/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/home/xy/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/home/xy/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/xy/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/home/xy/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar:/home/xy/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar:/home/xy/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/home/xy/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.3.jar:/home/xy/.ivy2/cache/io.netty/netty/bundles/netty-3.10.4.Final.jar:/home/xy/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/xy/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/home/xy/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/home/xy/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.3.jar:/home/xy/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.3.jar:/home/xy/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/xy/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/xy/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/xy/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 0.56168096 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/application.conf,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/application.conf)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/routes,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/routes)
+	(/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/conf/logback.xml,/home/xy/PROG/STUDIUM/webtech/WebTechPlay/Play/UChess beta/target/scala-2.11/classes/logback.xml)
+Total time: 1 s, completed 10.01.2016 16:49:24
+> server-post-command-cleanup
+> server-handle-next-server-request

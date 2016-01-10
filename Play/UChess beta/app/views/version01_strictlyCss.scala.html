@@ -5,8 +5,6 @@
 
     <title>Wui</title>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
     
@@ -14,7 +12,6 @@
     <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
          
     <script>   
-        var i = 0;
         var countryApp = angular.module('countryApp', []);
         countryApp.controller('CountryCtrl', function ($scope){
           $scope.figures = [
@@ -80,6 +77,7 @@
                 	{"figure": "P", "color": "w", "bg": "b", "pos": "51"},
                 	{"figure": "P", "color": "w", "bg": "w", "pos": "61"},
                 	{"figure": "P", "color": "w", "bg": "b", "pos": "71"},
+                	
                 	{"figure": "T", "color": "w", "bg": "b", "pos": "00"},
                 	{"figure": "H", "color": "w", "bg": "w", "pos": "10"},
                 	{"figure": "B", "color": "w", "bg": "b", "pos": "20"},
@@ -96,10 +94,7 @@
     <body ng-controller="CountryCtrl">
     	<ul>
     		<span ng-repeat="figur in figures">
-    		 if ($index == 1){
-                break;  
-            }
-    		<img ng-src="/assets/images/{{figur.color}}{{figur.figure}}{{figur.bg}}.jpg" class="field"/>
+    		    <img ng-src="/assets/images/chessPieces/{{figur.color}}{{figur.figure}}{{figur.bg}}.jpg" class="field"/>
     		</span>
     	</ul>
      

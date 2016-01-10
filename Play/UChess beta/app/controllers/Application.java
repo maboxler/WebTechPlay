@@ -66,8 +66,8 @@ public class Application extends Controller {
     }
 
     
-      public Result wui_newCss(){   
-    	return ok(wui_newCss.render());
+      public Result version01_strictlyCss(){   
+    	return ok(version01_strictlyCss.render());
     }    
 
     

@@ -11,7 +11,7 @@ GET     /wui                        controllers.Application.wui()
 GET     /wuii                       controllers.Application.wuii() 
 GET     /socket                     controllers.Application.webSocket()
 
-GET     /wui_newCss                        controllers.Application.wui_newCss()
+GET     /version01_strictlyCss      controllers.Application.version01_strictlyCss()
 
 
 # Map static resources from the /public folder to the /assets URL path
