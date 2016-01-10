@@ -66,5 +66,12 @@ public class Application extends Controller {
     }
 
     
+      public Result wui_newCss(){   
+    	return ok(wui_newCss.render());
+    }    
+
+    
+    
+    
 
 }

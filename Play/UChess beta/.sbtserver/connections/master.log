@@ -1,13 +1,13 @@
-New log file opened at Thu Jan 07 20:01:13 CET 2016 by 4728@xy-Lenovo-Y50-70
-Taking next connection to: 47400
-New client attempting to connect on port: 43766-47400
-  Address = /127.0.1.1:47400
-This client on port 43766 has uuid 967af854-d440-4b02-847e-ba47f2ee7dc2 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-967af854-d440-4b02-847e-ba47f2ee7dc2
-Taking next connection to: 47400
-New client attempting to connect on port: 43769-47400
-  Address = /127.0.1.1:47400
-Handshake exception on socket: 43769
+New log file opened at Sun Jan 10 16:28:32 CET 2016 by 2776@xy-Lenovo-Y50-70
+Taking next connection to: 37427
+New client attempting to connect on port: 47409-37427
+  Address = /127.0.1.1:37427
+This client on port 47409 has uuid a3789a17-1ff3-40aa-b4c8-4d7ccee73d44 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-a3789a17-1ff3-40aa-b4c8-4d7ccee73d44
+Taking next connection to: 37427
+New client attempting to connect on port: 47410-37427
+  Address = /127.0.1.1:37427
+Handshake exception on socket: 47410
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -17,54 +17,9 @@ Caused by: java.io.EOFException
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 47400
-New client attempting to connect on port: 43770-47400
-  Address = /127.0.1.1:47400
-This client on port 43770 has uuid 2483503c-a6a5-4cad-9123-0d2be346cf98 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-967af854-d440-4b02-847e-ba47f2ee7dc2, play-fork-run-2483503c-a6a5-4cad-9123-0d2be346cf98
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 47400
+Taking next connection to: 37427
+New client attempting to connect on port: 47411-37427
+  Address = /127.0.1.1:37427
+This client on port 47411 has uuid 97368ef7-1401-40f0-b680-2f616d877426 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-a3789a17-1ff3-40aa-b4c8-4d7ccee73d44, play-fork-run-97368ef7-1401-40f0-b680-2f616d877426
+Taking next connection to: 37427
