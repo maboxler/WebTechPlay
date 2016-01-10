@@ -1,6 +1,14 @@
-.field {
+.gamefield{
+    margin:             auto;               /* sorgt für mittige Ausrichtung */
+    border:             black 5px solid;
+    width:              900px;
+    height:             900px;
+}
 
-    width:              50px;
+
+.field{
+    float:              left;
+    width:              100px;
     height:             100px;
     margin:             0px;
     padding:            0px;
