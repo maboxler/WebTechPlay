@@ -66,12 +66,14 @@ public class Application extends Controller {
     }
 
     
-      public Result version01_strictlyCss(){   
+    public Result version01_strictlyCss(){   
     	return ok(version01_strictlyCss.render());
     }    
 
-    
-    
+    public static Result login() {
+        return ok(
+        login.render());
+    }
     
 
 }
