@@ -1,6 +1,6 @@
 name := """UChess beta"""
 
-version := "1.0-SNAPSHOT"
+//version := "1.0-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
 

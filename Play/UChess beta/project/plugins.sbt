@@ -6,16 +6,16 @@ addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.4.3")
 
 	//from secureSocial:
 	// Use the Play sbt plugin for Play projects
-	//addSbtPlugin("com.typesafe.play" % "sbt-plugin" % System.getProperty("play.version", "2.4.2"))
+	addSbtPlugin("com.typesafe.play" % "sbt-plugin" % System.getProperty("play.version", "2.4.3"))
 
 	// The Typesafe repository
-	//resolvers += "Typesafe repository" at "https://repo.typesafe.com/typesafe/releases/"
+	resolvers += "Typesafe repository" at "https://repo.typesafe.com/typesafe/releases/"
 
 	// Add Scalariform
-	//addSbtPlugin("com.typesafe.sbt" % "sbt-scalariform" % "1.3.0")
+	addSbtPlugin("com.typesafe.sbt" % "sbt-scalariform" % "1.3.0")
 
 	// PGP signing
-	//addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.0.0")
+	addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.0.0")
 
 
 // Web plugins

@@ -1,0 +1,10 @@
+unsere controller und views werden erstmal rausgelöscht und durch emptySecSoc-dateien ersetzt 
+
+sollen dann integriert werden
+
+
+app/controllers/Application.java
+kompletter view ordner
+außerdem noch app/controllers/WithProvider.java zugefügt (davor vergessen)
+conf/routes ausgetauscht
+
