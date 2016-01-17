@@ -120,6 +120,12 @@ public class Application extends Controller {
         };
     }
 
+    @SecuredAction      
+      public Result polyTest(){   
+      	return ok(polyTest.render());
+      }
+
+
 /* ===============================methods from secureSocial template ================================*/
 
     /**
