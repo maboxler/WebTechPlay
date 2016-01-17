@@ -24,7 +24,9 @@ import service.DemoUser;
  * on the provider that authenticated the user
  */
 public class WithProvider implements Authorization<DemoUser> {
+    
     public boolean isAuthorized(DemoUser user, String params[]) {
         return user.main.providerId().equals(params[0]);
     }
+    
 }

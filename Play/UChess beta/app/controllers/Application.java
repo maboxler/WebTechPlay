@@ -19,19 +19,24 @@ package controllers;
 import com.google.inject.Inject;
 import play.Logger;
 import play.libs.F;
+//import play.*;
+//import play.mvc.*;
 import play.mvc.Controller;
 import play.mvc.Result;
+import play.mvc.WebSocket;
+import htwg.se.chess.Init;
 import securesocial.core.BasicProfile;
 import securesocial.core.RuntimeEnvironment;
 import securesocial.core.java.SecureSocial;
 import securesocial.core.java.SecuredAction;
 import securesocial.core.java.UserAwareAction;
 import service.DemoUser;
-import views.html.index;
-import views.html.linkResult;
-import views.html.test;
-import views.html.loggedOutPage;
+import views.html.*;
 
+
+import play.twirl.api.Html;
+import play.libs.F.Callback;
+import play.libs.F.Callback0;
 
 /**
  * A sample controller
@@ -39,7 +44,7 @@ import views.html.loggedOutPage;
 public class Application extends Controller {
     public static Logger.ALogger logger = Logger.of("application.controllers.Application");
     private RuntimeEnvironment env;
-
+	Init init = null;
     /**
      * A constructor needed to get a hold of the environment instance.
      * This could be injected using a DI framework instead too.
@@ -49,24 +54,90 @@ public class Application extends Controller {
     @Inject()
     public Application (RuntimeEnvironment env) {
         this.env = env;
+
     }
+    
     /**
      * This action only gets called if the user is logged in.
      *
      * @return
      */
-
-
-    //IMPORTZEILE FÜR JEDE ZU RENDERNDE SEITE!! import views.html.test;
     @SecuredAction
-    public Result index() {
+    public Result index() {   	
+        if(logger.isDebugEnabled()){
+            logger.debug("access granted to index");
+        }
+    	//Init.main(null); //ruft Spiel auf    	
+        return ok(index.render("UChess Titel"));
+    }     
+
+    public Result loggedOutPage() {
+        return ok(loggedOutPage.render());
+    }
+
+    @SecuredAction
+    public Result game(){   
+    	init = Init.getInstance();
+    	return ok(main.render("Welcome To UChess",Html.apply(init.getWTui().replaceAll(" ", "&nbsp;"))));
+    }
+    
+    @SecuredAction    
+      public Result wui(){   
+    	return ok(wui.render());
+    }
+
+    @SecuredAction      
+      public Result wuii(){   
+      	return ok(ng_wui.render());
+      }
+    
+    @SecuredAction    
+    public Result reset(){   	
+    	Init.getInstance().getCc().reset();
+    	return ok(main.render("Welcome To UChess",Html.apply(Init.getInstance().getWTui().replaceAll(" ", "&nbsp;"))));
+    }
+    
+    @SecuredAction    
+    public Result move(String command){
+    	Init init = Init.getInstance();
+    	init.getTui().processInputLine(command);
+    	return ok(main.render("WTUI",Html.apply(Init.getInstance().getWTui().replaceAll(" ", "&nbsp;"))));
+    }
+    
+    @SecuredAction    
+    public WebSocket<String> webSocket() {
+        return new WebSocket<String>() {
+            public void onReady(WebSocket.In<String> in, WebSocket.Out<String> out) {
+                in.onMessage(new Callback<String>() {
+                        public void invoke(String event) {
+                            out.write("Nachricht erhalten");
+                        }
+                    });
+                in.onClose(new Callback0() {
+                        public void invoke() { out.write("und Tschues");}
+                    });
+            }
+        };
+    }
+
+/* ===============================methods from secureSocial template ================================*/
+
+    /**
+     * original method from the secureSocial-Framework
+     */
+    @SecuredAction
+    public Result index_secsoc() {
         if(logger.isDebugEnabled()){
             logger.debug("access granted to index");
         }
         DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
-        return ok(index.render(user, SecureSocial.env()));
+        return ok(index_secsoc.render(user, SecureSocial.env()));
     }
 
+
+    /**
+     * original method from the secureSocial-Framework
+     */
     @UserAwareAction
     public Result userAware() {
         DemoUser demoUser = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
@@ -86,6 +157,9 @@ public class Application extends Controller {
         return ok("Hello " + userName + ", you are seeing a public page");
     }
 
+    /**
+     * original method from the secureSocial-Framework
+     */
     @SecuredAction(authorization = WithProvider.class, params = {"twitter"})
     public Result onlyTwitter() {
         return ok("You are seeing this because you logged in using Twitter");
@@ -116,26 +190,4 @@ public class Application extends Controller {
             }
         });
     }
-    
-    @SecuredAction
-    public Result testmethode() {
-        if(logger.isDebugEnabled()){
-            logger.debug("testmethode");
-        }
-        DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
-        //return ok(test.render(user, SecureSocial.env()));
-        return ok(test.render());
-    }
-
-
-    
-    public Result loggedOutPage() {
-        if(logger.isDebugEnabled()){
-            logger.debug("test2");
-        }
-        DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
-        //return ok(test.render(user, SecureSocial.env()));
-        return ok(loggedOutPage.render());
-    }
-
 }

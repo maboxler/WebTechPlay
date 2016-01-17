@@ -3,10 +3,7 @@ logLevel := Level.Warn
 
 // The Play plugin
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.4.3")
-
-	//from secureSocial:
-	// Use the Play sbt plugin for Play projects
-	addSbtPlugin("com.typesafe.play" % "sbt-plugin" % System.getProperty("play.version", "2.4.3"))
+//addSbtPlugin("com.typesafe.play" % "sbt-plugin" % System.getProperty("play.version", "2.4.3"))
 
 	// The Typesafe repository
 	resolvers += "Typesafe repository" at "https://repo.typesafe.com/typesafe/releases/"
@@ -16,7 +13,6 @@ addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.4.3")
 
 	// PGP signing
 	addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.0.0")
-
 
 // Web plugins
 addSbtPlugin("com.typesafe.sbt" % "sbt-coffeescript" % "1.0.0")

@@ -1,4 +1,4 @@
-unsere controller und views werden erstmal rausgelöscht und durch emptySecSoc-dateien ersetzt 
+unsere controller (webtechplay) und views werden erstmal rausgelöscht und durch emptySecSoc-dateien ersetzt 
 
 sollen dann integriert werden
 

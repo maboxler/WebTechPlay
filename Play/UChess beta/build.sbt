@@ -1,4 +1,4 @@
-name := """UChess beta"""
+name := "UChess beta"
 
 //version := "1.0-SNAPSHOT"
 
@@ -16,7 +16,5 @@ libraryDependencies ++= Seq(
 // other, legacy style, accesses its actions statically.
 routesGenerator := InjectedRoutesGenerator
 
-
-fork in run := true
 
 fork in run := true
