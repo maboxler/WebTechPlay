@@ -1,6 +1,6 @@
-name := """UChess beta"""
+name := "UChess beta"
 
-version := "1.0-SNAPSHOT"
+//version := "1.0-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
 
@@ -16,7 +16,5 @@ libraryDependencies ++= Seq(
 // other, legacy style, accesses its actions statically.
 routesGenerator := InjectedRoutesGenerator
 
-
-fork in run := true
 
 fork in run := true

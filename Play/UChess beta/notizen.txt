@@ -1,0 +1,24 @@
+secureSocial einbinden:
+
+foglende Dateien übertragen in unser Projekt:
+
+.gitignore ergänzen 
+	- z.b. oauthkeys
+
+conf/application.conf				ok ersetzen						
+	??conf/play.plugins 				leere datei
+conf/routes 							mergen
+conf/securesocial.conf				ok
+app/Global.java						ok
+app/DemoModule.java					ok
+app/service/						ok	kompletter ornderinhalt
+controllers/Application.java			mergen
+controllers/WithProvider.java		ok
+app/views								ordner sinnvoll mergen
+project/Common.scala				ok
+project/plugins.sbt					?ok	merge						vorerst neue zeilen auskommentiert
+	??public/bootstrap					erstmal nicht kopieren
+	??public/javascripts/jquery..		erstmal nicht kopieren
+javaDemo.sbt						ok
+securesocial.sbt					ok
+

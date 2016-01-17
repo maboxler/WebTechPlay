@@ -1,5 +1,18 @@
+// Comment to get more information during initialization
+logLevel := Level.Warn
+
 // The Play plugin
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.4.3")
+//addSbtPlugin("com.typesafe.play" % "sbt-plugin" % System.getProperty("play.version", "2.4.3"))
+
+	// The Typesafe repository
+	resolvers += "Typesafe repository" at "https://repo.typesafe.com/typesafe/releases/"
+
+	// Add Scalariform
+	addSbtPlugin("com.typesafe.sbt" % "sbt-scalariform" % "1.3.0")
+
+	// PGP signing
+	addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.0.0")
 
 // Web plugins
 addSbtPlugin("com.typesafe.sbt" % "sbt-coffeescript" % "1.0.0")
@@ -19,3 +32,9 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-play-enhancer" % "1.1.0")
 // enablePlugins(SbtEbean). Note, uncommenting this line will automatically bring in
 // Play enhancer, regardless of whether the line above is commented out or not.
 // addSbtPlugin("com.typesafe.sbt" % "sbt-play-ebean" % "1.0.0")
+
+
+
+
+
+

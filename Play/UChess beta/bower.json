@@ -1,0 +1,19 @@
+{
+  "name": "chessForWebTech",
+  "homepage": "https://github.com/maboxler/WebTechPlay",
+  "description": "a fantastic implementation of the classic board game chess for Webbrowsers",
+  "main": "",
+  "moduleType": [],
+  "license": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.2.3"
+  }
+}

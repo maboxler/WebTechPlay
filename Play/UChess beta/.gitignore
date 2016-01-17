@@ -1,11 +1,11 @@
 logs/
-log
-target
-.sbtserver/
+target/
 /.idea
 /.idea_modules
 /.classpath
 /.project
 /.settings
 /RUNNING_PID
-conf/oauth_tokens.conf
+.sbtserver/
+.sbtserver
+oauth_tokens.conf
