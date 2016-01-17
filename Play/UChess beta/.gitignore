@@ -7,4 +7,5 @@ target/
 /.settings
 /RUNNING_PID
 .sbtserver/
+.sbtserver
 oauth_tokens.conf

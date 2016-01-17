@@ -26,7 +26,6 @@ class MyEnvironment extends RuntimeEnvironment.Default {
 
   override lazy val providers = ListMap(
     //include(new GoogleProvider(routes, cacheService, oauth2ClientFor(GoogleProvider.Google))),
-    //include(new FacebookProvider(routes, cacheService, oauth2ClientFor(FacebookProvider.Facebook))),
     include(new GitHubProvider(routes, cacheService, oauth2ClientFor(GitHubProvider.GitHub)))
   )
 
