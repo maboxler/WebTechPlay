@@ -19,6 +19,12 @@ GET         /wui                controllers.Application.wui()
 GET         /wuii               controllers.Application.wuii() 
 GET         /socket             controllers.Application.webSocket()
 GET         /polyTest           controllers.Application.polyTest()
+GET         /polyHeader         controllers.Application.polyHeader()
+
+
+# Map reuests form elements and bower_components
+GET        /polymerElements/*file          controllers.Application.fileLoad(rootPath="app/polymerElements", file)
+GET        /bower_components/*file  controllers.Application.fileLoad(rootPath="bower_components", file)
 
 # Map static resources from the /public folder to the /assets URL path
 GET         /assets/*file       controllers.Assets.at(path="/public", file)

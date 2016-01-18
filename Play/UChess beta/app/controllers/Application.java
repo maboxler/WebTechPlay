@@ -30,6 +30,10 @@ import securesocial.core.RuntimeEnvironment;
 import securesocial.core.java.SecureSocial;
 import securesocial.core.java.SecuredAction;
 import securesocial.core.java.UserAwareAction;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.nio.file.Paths;
 import service.DemoUser;
 import views.html.*;
 
@@ -121,9 +125,35 @@ public class Application extends Controller {
     }
 
     @SecuredAction      
-      public Result polyTest(){   
-      	return ok(polyTest.render());
+    public Result polyTest(){   
+        return ok(polyTest.render());
       }
+
+    @SecuredAction      
+    public Result polyHeader(){   
+      	return ok(polyHeader.render());
+      }
+
+    /**
+     * Used to call polymer template objects
+     */
+    public Result fileLoad(String rootPath, String file) {
+    	String cont = "";
+    	try {
+	    	File reqFile = new File(rootPath, file);
+	    	//Make sure result path is still in root path
+	    	if (!Paths.get(reqFile.getAbsolutePath()).startsWith(Paths.get(new File(rootPath).getAbsolutePath())))
+	    		return notFound("404 - Not Found");
+	    	BufferedReader br = new BufferedReader(new FileReader(reqFile));
+	    	String line = "";
+	    	while ((line = br.readLine()) != null)
+	    			cont += line + "\n";
+    	} catch (Exception e) {
+    		return notFound("404 - Not Found");
+    	}
+
+    	return ok(cont);
+    }
 
 
 /* ===============================methods from secureSocial template ================================*/
