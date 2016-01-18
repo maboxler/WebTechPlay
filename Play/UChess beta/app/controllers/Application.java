@@ -131,7 +131,8 @@ public class Application extends Controller {
 
     @SecuredAction      
     public Result polyHeader(){   
-      	return ok(polyHeader.render());
+        DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
+        return ok(polyHeader.render(user, SecureSocial.env()));
       }
 
     /**

@@ -1,26 +1,30 @@
+@(user: service.DemoUser, env: securesocial.core.RuntimeEnvironment)
+@import securesocial.core.IdentityProvider
+@import securesocial.core.AuthenticationMethod._
+@import Http.Context.Implicit
+
 <link rel="import" href="/bower_components/polymer/polymer.html">
 
-<dom-module id="dom-gameHeader">
+<dom-module id="dom-footer">
 
     <template>
         <style>
+            .footer{
+                margin-bottom:          0%;
+            }
             .menuItems{
-                background-color:       green;
                 float:                  left;
                 padding:                20px;
                 border:                 solid 2px black;
                 min-width:              200px;
                 list-style:             none;
             }
-
         </style>
 
-        <div class="pagePanel">
+        <div class="footer">
             <ul>
-                <li class="menuItems"><a href="">start a new game</a></li> 
-                <li class="menuItems"><a href="">look at the Rules</a></li> 
-
-
+                <li class="menuItems"><a href="@securesocial.controllers.routes.LoginPage.logout()">Logout</a></li> 
+                <li class="menuItems"><a href"">aboutThisApp</a></li>
             </ul>    
         
         </div><!--menubar-->
@@ -28,7 +32,7 @@
 
   <script>
     Polymer({
-      is: "dom-gameHeader"
+      is: "dom-footer"
     });
   </script>
 

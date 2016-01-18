@@ -1,5 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+@(user: service.DemoUser, env: securesocial.core.RuntimeEnvironment)
+@import securesocial.core.IdentityProvider
+@import securesocial.core.AuthenticationMethod._
+@import Http.Context.Implicit
+
+
   <head>
         <title>polyHeader-view</title>
         <script src="/bower_components/webcomponentsjs/webcomponents.min.js"></script>
@@ -9,9 +13,18 @@
 <!--    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
         <link rel="import" href="../polymerElements/dom-element.html"> -->
         <link rel="import" href="/polymerElements/gameHeader.html">
+        <link rel="import" href="/polymerElements/footer.html">
     </head>
-    <body class="page">
+    
+
+    <div class="page">
         <img class="page" id="headerImg" src="@routes.Assets.versioned("images/singlePictures/schach_header1.jpg")"\>
         <dom-gameHeader class="page"></dom-gameHeader>
-    </body>
-    </html>
+        <dom-footer class="page"></dom-footer> 
+        <br>
+        <hr>
+        <p><a class="btn" href="@securesocial.controllers.routes.LoginPage.logout()">ANOTHER LOGOUT</a></p>
+
+    </div>        
+        
+ 
