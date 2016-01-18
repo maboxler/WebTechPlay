@@ -1,13 +1,18 @@
 //page-specific variables:
-@breite:                1200px;
+//@breite:                1200px;
+@breite:                100%;
 @marg:                  20%;
-@headerHeight:          200px;
+@headerHeight:          250px;
 
 //element-specific variables:
-
 @panelHeight:           4%;
 @navElement_minWidth:   100px;
 @navElement_maxWidth:   300px;
+
+#bootstrap-overrides body{
+    margin:             10%;
+}
+
 
 .page{
     min-width:          @breite;
@@ -21,6 +26,7 @@
 
 #headerImg{
     height:             @headerHeight;
+    max-height:         @headerHeight;
     margin-left:        0%;
     margin-right:       0%;
 }
