@@ -1,0 +1,12 @@
+.menuBar{
+    background: grey;
+}
+
+
+
+.menuItems{
+    float:                  left;
+    border:                 solid 2px black;
+    min-width:              200px;
+    list-style:             none;
+}

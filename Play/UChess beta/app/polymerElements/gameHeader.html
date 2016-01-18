@@ -2,11 +2,27 @@
 
 <dom-module id="dom-gameHeader">
 
-  <template>
-  
-  
-    <p>I'm a DOM element: gameHeader</p>
-  </template>
+    <template>
+        <style>
+            .menuItems{
+                float:                  left;
+                padding:                20px;
+                border:                 solid 2px black;
+                min-width:              200px;
+                list-style:             none;
+            }
+        </style>
+
+        <div class="menuBar">
+            <ul>
+                <li class="menuItems">start a new game</li> 
+                <li class="menuItems">reset game</li>
+                <li class="menuItems">show Score</li>
+                <li class="menuItems">look at the Rules</li>
+            </ul>    
+        
+        </div><!--menubar-->
+    </template>
 
   <script>
     Polymer({
