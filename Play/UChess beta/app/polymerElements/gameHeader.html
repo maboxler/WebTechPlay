@@ -1,28 +1,15 @@
 <link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
 
 <dom-module id="dom-gameHeader">
 
     <template>
-        <style>
-            .menuItems{
-                background-color:       green;
-                float:                  left;
-                padding:                20px;
-                border:                 solid 2px black;
-                min-width:              200px;
-                list-style:             none;
-            }
 
-        </style>
-
-        <div class="pagePanel">
+        <div class="pagePanel" id="gameHeader">
             <ul>
-                <li class="menuItems"><a href="">start a new game</a></li> 
+                <li class="menuItems" ><a href="">start a new game</a></li> 
                 <li class="menuItems"><a href="">look at the Rules</a></li> 
-
-
             </ul>    
-        
         </div><!--menubar-->
     </template>
 

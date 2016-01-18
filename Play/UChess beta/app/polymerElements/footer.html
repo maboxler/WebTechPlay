@@ -1,27 +1,10 @@
-@(user: service.DemoUser, env: securesocial.core.RuntimeEnvironment)
-@import securesocial.core.IdentityProvider
-@import securesocial.core.AuthenticationMethod._
-@import Http.Context.Implicit
-
 <link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
 
 <dom-module id="dom-footer">
 
     <template>
-        <style>
-            .footer{
-                margin-bottom:          0%;
-            }
-            .menuItems{
-                float:                  left;
-                padding:                20px;
-                border:                 solid 2px black;
-                min-width:              200px;
-                list-style:             none;
-            }
-        </style>
-
-        <div class="footer">
+        <div class="pagePanel">
             <ul>
                 <li class="menuItems"><a href="@securesocial.controllers.routes.LoginPage.logout()">Logout</a></li> 
                 <li class="menuItems"><a href"">aboutThisApp</a></li>

@@ -9,9 +9,7 @@
         <script src="/bower_components/webcomponentsjs/webcomponents.min.js"></script>
         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
-        
-<!--    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
-        <link rel="import" href="../polymerElements/dom-element.html"> -->
+    
         <link rel="import" href="/polymerElements/gameHeader.html">
         <link rel="import" href="/polymerElements/footer.html">
     </head>
@@ -19,12 +17,17 @@
 
     <div class="page">
         <img class="page" id="headerImg" src="@routes.Assets.versioned("images/singlePictures/schach_header1.jpg")"\>
-        <dom-gameHeader class="page"></dom-gameHeader>
-        <dom-footer class="page"></dom-footer> 
-        <br>
-        <hr>
-        <p><a class="btn" href="@securesocial.controllers.routes.LoginPage.logout()">ANOTHER LOGOUT</a></p>
-
+        <div class="contentPart">
+            <div class="pagePanel">
+                <dom-gameHeader></dom-gameHeader>
+            </div>
+            <div class="pagePanel">
+                <dom-footer></dom-footer> 
+            </div>
+            <div class="pagePanel">
+                <p class="pagePanel"><a class="btn" href="@securesocial.controllers.routes.LoginPage.logout()">ANOTHER LOGOUT</a></p>
+            </div>
+        </div>    
     </div>        
         
  

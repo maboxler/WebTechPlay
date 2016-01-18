@@ -1,18 +1,53 @@
-@breite:             1200px;
-@marg:              20%;
+//page-specific variables:
+@breite:                1200px;
+@marg:                  20%;
+@headerHeight:          200px;
+
+//element-specific variables:
+
+@panelHeight:           4%;
+@navElement_minWidth:   100px;
+@navElement_maxWidth:   300px;
 
 .page{
-    min-width:      @breite;
-    max-width:      @breite;
-    position:       relative;
-//    width:          @weite;
-    margin-top:     0%;    
-    margin-left:    @marg;
-    margin-right:   @marg;
-    border:         1px solid red;
+    min-width:          @breite;
+    max-width:          @breite;
+    position:           relative;
+    margin-top:         0%;  
+    margin-left:        auto;
+    margin-right:       auto;
+    
 }
 
 #headerImg{
-    margin:             auto auto;
-    height:             200px;
+    height:             @headerHeight;
+    margin-left:        0%;
+    margin-right:       0%;
+}
+
+.contentPart{
+    position:           relative;
+    border:             1px solid red;
+    margin-top:         0%;   
+}
+
+.pagePanel{
+    clear:              both;
+    min-height:         @panelHeight;
+}
+
+.menuItems{
+    float:              left;
+    border:             solid 2px black;
+    list-style:         none;
+
+}
+
+#gameHeader{
+    background-color:   lightblue;
+    height:             @panelHeight;
+}
+
+#footer{
+    
 }
