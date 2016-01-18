@@ -135,6 +135,18 @@ public class Application extends Controller {
         return ok(polyHeader.render(user, SecureSocial.env()));
       }
 
+    @SecuredAction      
+    public Result polyHeaderBootstrap(){   
+        DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
+        return ok(polyHeaderBootstrap.render(user, SecureSocial.env()));
+      }
+      
+    @SecuredAction      
+    public Result bootstrapTest(){   
+        return ok(bootstrapTest.render());
+    }
+            
+      
     /**
      * Used to call polymer template objects
      */
