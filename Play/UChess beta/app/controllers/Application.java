@@ -36,7 +36,7 @@ import java.io.FileReader;
 import java.nio.file.Paths;
 import service.DemoUser;
 import views.html.*;
-
+//import views.backup.html.*;
 
 import play.twirl.api.Html;
 import play.libs.F.Callback;
@@ -75,9 +75,10 @@ public class Application extends Controller {
         return ok(index.render("UChess Titel"));
     }     
 
+/*
     public Result loggedOutPage() {
         return ok(loggedOutPage.render());
-    }
+    }   */
 
     @SecuredAction
     public Result game(){   
@@ -153,22 +154,22 @@ public class Application extends Controller {
       }
       
     @SecuredAction      
-    public Result bootstrapTest(){   
+    public Result polymer_withBootstrap_navLeft(){   
         DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
-        return ok(bootstrapTest.render(user, SecureSocial.env()));        
+        return ok(polymer_withBootstrap_navLeft.render(user, SecureSocial.env()));        
     }
      
     @SecuredAction      
-    public Result bootstrapTest2(){   
+    public Result polymer_withBootstrap_navTop(){   
         DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
-        return ok(bootstrapTest2.render(user, SecureSocial.env()));        
+        return ok(polymer_withBootstrap_navTop.render(user, SecureSocial.env()));        
     }            
       
     @SecuredAction      
-    public Result bootstrapTest3    (){   
+    public Result polymer_withBootstrap_gameString(){   
         DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
       	Init.getInstance().getCc().reset();
-        return ok(bootstrapTest3.render(user, SecureSocial.env(), "TESTSTRING", Html.apply(Init.getInstance().getWTui().replaceAll(" ", "&nbsp;"))));
+        return ok(polymer_withBootstrap_gameString.render(user, SecureSocial.env(), "TESTSTRING", Html.apply(Init.getInstance().getWTui().replaceAll(" ", "&nbsp;"))));
     }            
         
       
@@ -198,7 +199,7 @@ public class Application extends Controller {
 
     /**
      * original method from the secureSocial-Framework
-     */
+
     @SecuredAction
     public Result index_secsoc() {
         if(logger.isDebugEnabled()){
@@ -207,7 +208,7 @@ public class Application extends Controller {
         DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
         return ok(index_secsoc.render(user, SecureSocial.env()));
     }
-
+     */
 
     /**
      * original method from the secureSocial-Framework

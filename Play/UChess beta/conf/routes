@@ -3,7 +3,7 @@
 # ~~~~
 
 # Home page
-GET         /index_secsoc       @controllers.Application.index_secsoc
+#GET         /index_secsoc       @controllers.Application.index_secsoc
 GET         /userAware          @controllers.Application.userAware
 GET         /only-twitter       @controllers.Application.onlyTwitter
 GET         /link-result        @controllers.Application.linkResult
@@ -11,7 +11,7 @@ GET         /current-user       @controllers.Application.currentUser
 
 
 GET         /                   @controllers.Application.index
-GET         /loggedOutPage      @controllers.Application.loggedOutPage
+#GET         /loggedOutPage      @controllers.Application.loggedOutPage
 GET         /wtui				controllers.Application.game()
 GET         /reset				controllers.Application.reset()
 GET         /move/:command      controllers.Application.move(command:String)
@@ -20,10 +20,10 @@ GET         /wuii               controllers.Application.wuii()
 GET         /socket             controllers.Application.webSocket()
 GET         /polyTest           controllers.Application.polyTest()
 GET         /polyHeader         controllers.Application.polyHeader()
-GET         /polyHeaderBootstrap         controllers.Application.polyHeaderBootstrap()
-GET         /bootstrapTest      controllers.Application.bootstrapTest()
-GET         /bootstrapTest2     controllers.Application.bootstrapTest2()
-GET         /bootstrapTest3     controllers.Application.bootstrapTest3()
+GET         /polyHeaderBootstrap                controllers.Application.polyHeaderBootstrap()
+GET         /polymer_withBootstrap_navLeft      controllers.Application.polymer_withBootstrap_navLeft()
+GET         /polymer_withBootstrap_navTop       controllers.Application.polymer_withBootstrap_navTop()
+GET         /polymer_withBootstrap_gameString   controllers.Application.polymer_withBootstrap_gameString()
 GET         /newGamePage        controllers.Application.wui3()
 GET         /jswui              controllers.Application.jswui()
 
