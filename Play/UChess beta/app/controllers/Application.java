@@ -90,18 +90,22 @@ public class Application extends Controller {
     	return ok(wui.render());
     }
 
+    @SecuredAction      
+      public Result wuii(){   
+      	return ok(ng_wui.render());
+      }
+    
+    @SecuredAction      
+      public Result jswui(){   
+      	return ok(JsWui.render());
+      }
+        
     @SecuredAction    
       public Result wui3(){   
         DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
         return ok(wui3.render(user, SecureSocial.env()));    
     }
 
-
-    @SecuredAction      
-      public Result wuii(){   
-      	return ok(ng_wui.render());
-      }
-    
     @SecuredAction    
     public Result reset(){   	
     	Init.getInstance().getCc().reset();
@@ -159,6 +163,14 @@ public class Application extends Controller {
         DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
         return ok(bootstrapTest2.render(user, SecureSocial.env()));        
     }            
+      
+    @SecuredAction      
+    public Result bootstrapTest3    (){   
+        DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
+      	Init.getInstance().getCc().reset();
+        return ok(bootstrapTest3.render(user, SecureSocial.env(), "TESTSTRING", Html.apply(Init.getInstance().getWTui().replaceAll(" ", "&nbsp;"))));
+    }            
+        
       
     /**
      * Used to call polymer template objects
