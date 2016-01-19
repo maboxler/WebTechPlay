@@ -6,14 +6,12 @@
 
 //element-specific variables:
 @panelHeight:           4%;
-@navElement_minWidth:   100px;
-@navElement_maxWidth:   300px;
 @navFontSize:           24pt;
 @navColor:              green;
 @navFont:               "Times New Roman", Times, serif;
 @borderColor:           #3A0000;
-@navWidthMin:           250px;
-@navWidthMax:           400px;
+@navWidthMin:           400px;
+@navWidthMax:           600px;
 
 #bootstrap-overrides body{
     margin:             10%;
@@ -45,7 +43,7 @@ body{
 .contentPart{
     position:           relative;
     border-top:         8px solid @borderColor;
-    margin-top:         0%;   
+    margin:         0%;   
     min-height:         600px;
 }
 
@@ -68,10 +66,18 @@ body{
 
 .navLinks{
     position:           absolute;
+    //display:            block;
+    min-width:          @navWidthMin;
+	max-width:          @navWidthMax;
     margin-left:        0px;
     margin-top:         0px;
     padding:            0px;
+	font-size:          @navFontSize;
+	color:              @navColor;	   
+    font-family:        @navFont;  
 }
+
+
 
 //CSS SETTINGS FOR VERTICAL NAVBAR:
 
@@ -85,32 +91,16 @@ body{
     padding-right:0;
   }
 }
+
 .navbar {
+    
     border-radius:      0px;
-    min-width:          @navWidthMin;
-	max-width:          @navWidthMax;
 	min-height:         700px;
-	//overflow: visible;
+	overflow:           visible;
 	margin-right:       0;
 	margin-left:        0%;
 }	
 
-
-.navbar-brand{
-    margin-top:         400px;
-    margin-bottom:      20px;
-
-}
-
-.navLinks {
-	margin-left:        20px;
-	margin-right:       20px;
-	margin-top:         20px;
-	margin-bottom:      20px;
-	font-size:          @navFontSize;
-	color:              @navColor;	   
-    font-family:        @navFont;    
-}
 
 .navbar-nav,
 .navbar-nav > li,

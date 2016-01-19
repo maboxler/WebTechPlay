@@ -20,7 +20,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <!-- Besondere Stile für diese Vorlage 
         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/bootstrap_starter-template.css")"> -->
-        <link rel="stylesheet" media="screen" href="/assets/stylesheets/wui3.css"> 
+        <link rel="stylesheet" media="screen" href="/assets/stylesheets/main.css"> 
         <link rel="import" href="/polymerElements/dom-gameField.html">
         
     </head>
@@ -73,7 +73,7 @@ horizontal standard example bootstrap menu navbar-header
         </div><!-- container -->
         
     <div class="contentPart">
-        <div class="inGameNavigation">
+        <div class="navLinks">
             <nav class="navbar navbar-inverse" role="navigation">
               <!-- Brand and toggle get grouped for better mobile display -->
               
@@ -90,14 +90,17 @@ horizontal standard example bootstrap menu navbar-header
                     <li><a class="navLinks" href="#">About this Website</a></li>
                     <li><a class="navLinks" href="@securesocial.controllers.routes.LoginPage.logout()">Log out</a></li>
                 </ul>
-              </div><!--    navbar-collapse -->
+              </div><!-- /.navbar-collapse -->
             </nav>
-        </div><!-- inGameNavigation -->
+        </div>
         <div class="gameField">
             <dom-gameField>
             </dom-gameField>
         </div><!-- gameField -->
     </div>
+
+
+
 
 <!--
 =========================================================================================

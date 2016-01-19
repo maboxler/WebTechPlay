@@ -8,26 +8,21 @@
 
 //element-specific variables:
 @panelHeight:           4%;
-@navElement_minWidth:   100px;
-@navElement_maxWidth:   300px;
 @navFontSize:           24pt;
 @navColor:              green;
 @navFont:               "Times New Roman", Times, serif;
 @borderColor:           #3A0000;
-@navWidthMin:           250px;
-@navWidthMax:           400px;
+@navWidthMin:           400px;
+@navWidthMax:           600px;
+@navHeightMin:          2000px;
+@contentPartHeightMin:  @navHeightMin;
 
 #bootstrap-overrides body{
     margin:             10%;
-}
-
-body{
-    min-height:         100%;
-    border-top:         none;
+    height:             100%;
 }
 
 .page{
-    //border:             5px black solid;
     min-width:          @breite;
     max-width:          @breite;
     position:           relative;
@@ -46,9 +41,9 @@ body{
 
 .contentPart{
     position:           relative;
-    border-top:         8px solid @borderColor;
-    margin-top:         0%;   
-    min-height:         600px;
+    margin:             0%;   
+    min-height:         @contentPartHeightMin;
+    border-top:         none;
 }
 
 .pagePanel{
@@ -58,9 +53,7 @@ body{
 
 .menuItems{
     float:              left;
-    border:             solid 2px black;
     list-style:         none;
-
 }
 
 #gameHeader{
@@ -70,49 +63,25 @@ body{
 
 .navLinks{
     position:           absolute;
+    //display:            block;
+    min-width:          @navWidthMin;
+	max-width:          @navWidthMax;
+	min-height:         @navHeightMin;
     margin-left:        0px;
     margin-top:         0px;
     padding:            0px;
+	font-size:          @navFontSize;
+	color:              @navColor;	   
+    font-family:        @navFont;  
 }
 
-//CSS SETTINGS FOR VERTICAL NAVBAR:
-
-@media (min-width: 768px) {
-  .navbar-collapse {
-    height: auto;
-    border-top: 0;
-    box-shadow: none;
-    max-height: none;
-    padding-left:0;
-    padding-right:0;
-  }
-}
 .navbar {
+    min-width:          @navHeightMin;
     border-radius:      0px;
-    min-width:          @navWidthMin;
-	max-width:          @navWidthMax;
-	min-height:         700px;
-	//overflow: visible;
+	overflow:           visible;    
 	margin-right:       0;
 	margin-left:        0%;
 }	
-
-
-.navbar-brand{
-    margin-top:         400px;
-    margin-bottom:      20px;
-
-}
-
-.navLinks {
-	margin-left:        20px;
-	margin-right:       20px;
-	margin-top:         20px;
-	margin-bottom:      20px;
-	font-size:          @navFontSize;
-	color:              @navColor;	   
-    font-family:        @navFont;    
-}
 
 .navbar-nav,
 .navbar-nav > li,
@@ -122,13 +91,3 @@ body{
 {
     float:                  none !important;
 }
-
-/*
-
-//.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus 
-
-.navbar-default .navbar-nav > a:link, .navbar-default .navbar-nav > a:hover, .navbar-default .navbar-nav > a:focus {
-        background-color:   red;
-        color:              green;
-}
-*/
