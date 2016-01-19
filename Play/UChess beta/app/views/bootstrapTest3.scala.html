@@ -1,4 +1,4 @@
-@(user: service.DemoUser, env: securesocial.core.RuntimeEnvironment)
+@(user: service.DemoUser, env: securesocial.core.RuntimeEnvironment)(title: String)(content: Html)
 <!--@(user: service.DemoUser, env: securesocial.core.RuntimeEnvironment)(content: Html)-->
 @import securesocial.core.IdentityProvider
 @import securesocial.core.AuthenticationMethod._
@@ -13,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Die 3 Meta-Tags oben *müssen* zuerst im head stehen; jeglicher sonstiger head-Inhalt muss *nach* diesen Tags kommen -->
         <meta name="description" content="">
-        <title>Starter-Vorlage für Bootstrap</title>
+        <title>@title</title>
         <!-- Bootstrap-CSS -->
         <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -80,22 +80,26 @@ horizontal standard example bootstrap menu navbar-header
             <nav class="navbar navbar-inverse" role="navigation">
               <!-- Brand and toggle get grouped for better mobile display -->
               
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                </button>
-              </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a class="navLinks" href="#">Home</a></li>
-                    <li><a class="navLinks" href="/newGamePage">Start a new Game</a></li>
-                    <li><a class="navLinks" href="http://www.chessmail.de/pages/fiderules.html">Show Chess Rules</a></li>
-                    <li><a class="navLinks" href="#">About this Website</a></li>
-                    <li><a class="navLinks" href="@securesocial.controllers.routes.LoginPage.logout()">Log out</a></li>
-                </ul>
-              </div><!-- /.navbar-collapse -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a class="navLinks" href="/">Home</a></li>
+                        <li><a class="navLinks" href="/newGamePage">Start a new Game</a></li>
+                        <li><a class="navLinks" href="http://www.chessmail.de/pages/fiderules.html">Show Chess Rules</a></li>
+                        <li><a class="navLinks" href="#">About this Website</a></li>
+                        <li><a class="navLinks" href="@securesocial.controllers.routes.LoginPage.logout()">Log out</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
             </nav>
-        </div>
+        </div><!-- /.navLinks-->
+        
+        <div class="container injectedGame" style="padding-top:30px">
+            @content
+        </div><!--injectedGame-->  
     </div>
 <!--
 =========================================================================================
