@@ -6,72 +6,25 @@
 
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Die 3 Meta-Tags oben *müssen* zuerst im head stehen; jeglicher sonstiger head-Inhalt muss *nach* diesen Tags kommen -->
-        <meta name="description" content="">
-        <title>Starter-Vorlage für Bootstrap</title>
-        <!-- Bootstrap-CSS -->
-        <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <!-- Besondere Stile für diese Vorlage 
-        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/bootstrap_starter-template.css")"> -->
-        <link rel="stylesheet" media="screen" href="/assets/stylesheets/main.css"> 
-        <link rel="import" href="/polymerElements/dom-gameField.html">
-        
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Die 3 Meta-Tags oben *müssen* zuerst im head stehen; jeglicher sonstiger head-Inhalt muss *nach* diesen Tags kommen -->
+    <meta name="description" content="">
+    <title>Starter-Vorlage für Bootstrap</title>
+    <!-- Bootstrap-CSS -->
+    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Besondere Stile für diese Vorlage 
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/bootstrap_starter-template.css")"> -->
+    <link rel="stylesheet" media="screen" href="/assets/stylesheets/main.css"> 
+    <link rel="import" href="/polymerElements/dom-gameField.html">
+</head>
 
-    <body id="bootstrap-overrides">
-
-<!--
-=========================================================================================
-=========================================================================================
-=========================================================================================
-horizontal standard example bootstrap menu navbar-header 
-
-        <nav class="navbar navbar-inverse">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Navigation ein-/ausblenden</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Projekt-Titel</a>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Start</a></li>
-                <li><a href="#ueber">Über</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
-<!--          </div>
-        </nav>
-    
-        <div class="container .col-lg-8 ">
-            <div class="page" id="cssDebugTest">
-            
-                <div class="contentPart">
-                    <div class="pagePanel">
-                        <dom-gameHeader></dom-gameHeader>
-                    </div>
-                    <div class="pagePanel">
-                        <dom-footer></dom-footer> 
-                    </div>
-                    <div class="pagePanel">
-                        <p class="pagePanel"><a class="btn" href="@securesocial.controllers.routes.LoginPage.logout()">ANOTHER LOGOUT</a></p>
-                    </div>
-                </div>    
-            </div>   
-
-        </div><!-- container -->
-        
+<body id="bootstrap-overrides">
     <div class="contentPart">
         <div class="navLinks">
             <nav class="navbar navbar-inverse" role="navigation">
@@ -94,19 +47,15 @@ horizontal standard example bootstrap menu navbar-header
             </nav>
         </div>
         <div class="gameField">
-            <dom-gameField>
-            </dom-gameField>
+            <!--<dom-gameField> </dom-gameField> -->
+            
         </div><!-- gameField -->
     </div>
-
-
-
 
 <!--
 =========================================================================================
 =========================================================================================
 =========================================================================================
 -->
-
-    </body>
+</body>
 </html>

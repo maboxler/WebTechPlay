@@ -33,7 +33,10 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-play-enhancer" % "1.1.0")
 // Play enhancer, regardless of whether the line above is commented out or not.
 // addSbtPlugin("com.typesafe.sbt" % "sbt-play-ebean" % "1.0.0")
 
-
+//eclipse-plugin (else not possible to import play projects
+//more info on:
+//https://www.playframework.com/documentation/2.4.x/IDE#Eclipse
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "4.0.0")
 
 
 

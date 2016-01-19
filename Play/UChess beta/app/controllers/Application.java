@@ -58,7 +58,6 @@ public class Application extends Controller {
     @Inject()
     public Application (RuntimeEnvironment env) {
         this.env = env;
-
     }
     
     /**
@@ -87,19 +86,19 @@ public class Application extends Controller {
     }
     
     @SecuredAction    
-      public Result wui(){   
+    public Result wui(){   
     	return ok(wui.render());
     }
 
     @SecuredAction      
       public Result wuii(){   
       	return ok(ng_wui.render());
-      }
+    }
     
     @SecuredAction      
-      public Result jswui(){   
+    public Result jswui(){   
       	return ok(JsWui.render());
-      }
+    }
         
     @SecuredAction    
       public Result wui3(){   
@@ -145,7 +144,7 @@ public class Application extends Controller {
     public Result polymer_pureCss(){   
         DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
         return ok(polymer_pureCss.render(user, SecureSocial.env()));
-      }
+    }
 
     @SecuredAction      
     public Result polymer_withBootstrap_navLeft(){   
@@ -184,7 +183,6 @@ public class Application extends Controller {
     	} catch (Exception e) {
     		return notFound("404 - Not Found");
     	}
-
     	return ok(cont);
     }
 
