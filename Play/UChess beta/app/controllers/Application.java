@@ -137,22 +137,16 @@ public class Application extends Controller {
     }
 
     @SecuredAction      
-    public Result polyTest(){   
-        return ok(polyTest.render());
+    public Result polymerTesting(){   
+        return ok(polymerTesting.render());
       }
 
     @SecuredAction      
-    public Result polyHeader(){   
+    public Result polymer_pureCss(){   
         DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
-        return ok(polyHeader.render(user, SecureSocial.env()));
+        return ok(polymer_pureCss.render(user, SecureSocial.env()));
       }
 
-    @SecuredAction      
-    public Result polyHeaderBootstrap(){   
-        DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
-        return ok(polyHeaderBootstrap.render(user, SecureSocial.env()));
-      }
-      
     @SecuredAction      
     public Result polymer_withBootstrap_navLeft(){   
         DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
