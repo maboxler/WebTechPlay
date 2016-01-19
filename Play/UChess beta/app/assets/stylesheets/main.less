@@ -2,19 +2,28 @@
 //@breite:                1200px;
 @breite:                100%;
 @marg:                  20%;
-@headerHeight:          250px;
+@headerHeight:          300px;
 
 //element-specific variables:
 @panelHeight:           4%;
 @navElement_minWidth:   100px;
 @navElement_maxWidth:   300px;
+@navFontSize:           24pt;
+@navColor:              green;
+@navFont:               "Times New Roman", Times, serif;
+@borderColor:           #3A0000;
 
 #bootstrap-overrides body{
     margin:             10%;
 }
 
+body{
+    min-height:         100%;
+    border-top:         none;
+}
 
 .page{
+    //border:             5px black solid;
     min-width:          @breite;
     max-width:          @breite;
     position:           relative;
@@ -33,7 +42,7 @@
 
 .contentPart{
     position:           relative;
-    border:             1px solid red;
+    border-top:         8px solid @borderColor;
     margin-top:         0%;   
 }
 
@@ -67,11 +76,31 @@
   }
 }
 .navbar {
-	max-width:300px;
-	margin-right: 0;
-	margin-left: 0;
+    border-radius:      0px;
+    min-width:          250px;
+	max-width:          400px;
+	min-height:         700px;
+	//overflow: visible;
+	margin-right:       0;
+	margin-left:        0%;
 }	
 
+
+.navbar-brand{
+    margin-top:         400px;
+    margin-bottom:      20px;
+
+}
+
+.navLinks {
+	margin-left:        20px;
+	margin-right:       20px;
+	margin-top:         20px;
+	margin-bottom:      20px;
+	font-size:          @navFontSize;
+	color:              @navColor;	   
+    font-family:        @navFont;    
+}
 
 .navbar-nav,
 .navbar-nav > li,
@@ -80,7 +109,6 @@
 .navbar-header
 {
     float:                  none !important;
-
 }
 
 /*

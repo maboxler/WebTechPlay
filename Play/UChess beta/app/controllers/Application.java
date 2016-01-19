@@ -143,7 +143,8 @@ public class Application extends Controller {
       
     @SecuredAction      
     public Result bootstrapTest(){   
-        return ok(bootstrapTest.render());
+        DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
+        return ok(bootstrapTest.render(user, SecureSocial.env()));        
     }
             
       
