@@ -90,6 +90,13 @@ public class Application extends Controller {
     	return ok(wui.render());
     }
 
+    @SecuredAction    
+      public Result wui3(){   
+        DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
+        return ok(wui3.render(user, SecureSocial.env()));    
+    }
+
+
     @SecuredAction      
       public Result wuii(){   
       	return ok(ng_wui.render());
@@ -146,7 +153,12 @@ public class Application extends Controller {
         DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
         return ok(bootstrapTest.render(user, SecureSocial.env()));        
     }
-            
+     
+    @SecuredAction      
+    public Result bootstrapTest2(){   
+        DemoUser user = (DemoUser) ctx().args.get(SecureSocial.USER_KEY);
+        return ok(bootstrapTest2.render(user, SecureSocial.env()));        
+    }            
       
     /**
      * Used to call polymer template objects

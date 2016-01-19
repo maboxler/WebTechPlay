@@ -21,8 +21,8 @@
         <!-- Besondere Stile für diese Vorlage 
         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/bootstrap_starter-template.css")"> -->
         <link rel="stylesheet" media="screen" href="/assets/stylesheets/main.css">      
-        <link rel="import" href="/polymerElements/gameHeader.html">
-        <link rel="import" href="/polymerElements/footer.html">
+        <link rel="stylesheet" media="screen" href="/assets/stylesheets/wui3.css"> 
+        <link rel="import" href="/polymerElements/dom-gameField.html">
         
     </head>
 
@@ -75,25 +75,31 @@ horizontal standard example bootstrap menu navbar-header
         </div><!-- /.container -->
         
     <div class="contentPart">
-            <nav class="navbar navbar-inverse" role="navigation">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                </button>
-              </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a class="navLinks" href="#">Home</a></li>
-                    <li><a class="navLinks" href="/newGamePage">Start a new Game</a></li>
-                    <li><a class="navLinks" href="http://www.chessmail.de/pages/fiderules.html">Show Chess Rules</a></li>
-                    <li><a class="navLinks" href="#">About this Website</a></li>
-                    <li><a class="navLinks" href="@securesocial.controllers.routes.LoginPage.logout()">Log out</a></li>
-                </ul>
-              </div><!-- /.navbar-collapse -->
-            </nav>
-
+        <nav class="navbar navbar-inverse" role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            </button>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li><a class="navLinks" href="#">Home</a></li>
+                <li><a class="navLinks" href="/newGamePage">Start a new Game</a></li>
+                <li><a class="navLinks" href="http://www.chessmail.de/pages/fiderules.html">Show Chess Rules</a></li>
+                <li><a class="navLinks" href="#">About this Website</a></li>
+                <li><a class="navLinks" href="@securesocial.controllers.routes.LoginPage.logout()">Log out</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </nav>
+    </div>
+    
+    <div class="gameField">
+        <dom-gameField>
+            
+        </dom-gameField>
+        
     </div>
 <!--
 =========================================================================================

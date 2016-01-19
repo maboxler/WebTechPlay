@@ -22,6 +22,8 @@ GET         /polyTest           controllers.Application.polyTest()
 GET         /polyHeader         controllers.Application.polyHeader()
 GET         /polyHeaderBootstrap         controllers.Application.polyHeaderBootstrap()
 GET         /bootstrapTest         controllers.Application.bootstrapTest()
+GET         /bootstrapTest2         controllers.Application.bootstrapTest2()
+GET         /newGamePage         controllers.Application.wui3()
 
 # Map reuests form elements and bower_components
 GET        /polymerElements/*file          controllers.Application.fileLoad(rootPath="app/polymerElements", file)
