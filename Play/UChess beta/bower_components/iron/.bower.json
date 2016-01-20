@@ -1,0 +1,32 @@
+{
+  "name": "iron",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "source",
+    "**/*.json",
+    "gruntfile.js",
+    "temp"
+  ],
+  "main": "build/iron.min.js",
+  "dependencies": {
+    "jQuery": "2.x",
+    "underscore": "1.x"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/cobbdb/iron",
+  "version": "0.0.3",
+  "_release": "0.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.3",
+    "commit": "e78c2c5d78e4965875e890158d4972836634fce5"
+  },
+  "_source": "git://github.com/cobbdb/iron.git",
+  "_target": "~0.0.3",
+  "_originalSource": "iron",
+  "_direct": true
+}
