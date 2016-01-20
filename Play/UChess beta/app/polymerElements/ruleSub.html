@@ -1,6 +1,7 @@
 <link rel="import" href="/bower_components/polymer/polymer.html">
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>-->
 <link rel="import" href="/bower_components/iron-input/iron-input.html">
+<link rel="import" href="/bower_components/iron-ajax/iron-ajax.html">
 
 
 <dom-module id="dom-ruleSub" attributes="textnumber">
@@ -11,12 +12,18 @@
     </style>
     
     <template>
+        <iron-ajax
+        id="ajax"
+        auto
+        url="/textForRules/textForRuleSub_{{textnumber}}"
+        handle-as="text"
+        on-response="handleResponse"
+        debounce-duration="300">
+        </iron-ajax>
+
         <div class="row">
-            <div class="col-xs-10">
-                <iron-input bind-value="{{textnumber}}"></iron-input>
-            </div>
             <div class="col-xs-2">
-                {{textnumber}}
+                {{data}}
             </div>
         </div>
 
@@ -25,11 +32,19 @@
     <script>
         Polymer({
             is: "dom-ruleSub",
-            properties:{ 
+            properties:{
                 textnumber: {
                     type: String,
                     value: "Standart text"
                 }
+            },
+            handleResponse: function(request) {
+                console.log(request.detail.response);
+                this.data = request.detail.response;
+            },
+            ready: function() {
+                console.log("Doing something");
+                //document.getElementById("ajax").generateRequest();
             }
         });
     </script>
