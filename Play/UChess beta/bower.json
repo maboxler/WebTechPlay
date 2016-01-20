@@ -16,6 +16,7 @@
   "dependencies": {
     "polymer": "~1.2.3",
     "bootstrap": "~3.3.6",
-    "iron": "~0.0.3"
+    "iron": "~0.0.3",
+    "iron-elements": "~1.0.7"
   }
 }
