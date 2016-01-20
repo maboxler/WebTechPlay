@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="/bower_components/webcomponentsjs/webcomponents.min.js"></script>
-<!--    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
-    <link rel="import" href="../polymerElements/dom-element.html"> -->
-    <link rel="import" href="/polymerElements/dom-element.html">
-  </head>
-  <body>
-    <dom-element></dom-element>
-  </body>
+    <head>
+        <script src="/bower_components/webcomponentsjs/webcomponents.min.js"></script>
+        <!--    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+        <link rel="import" href="../polymerElements/dom-element.html"> -->
+        <link rel="import" href="/polymerElements/ruleBig.html">
+        <link rel="import" href="/polymerElements/ruleSub.html">
+    </head>
+<!--
+    Idee für Präsentation:
+    Originalseite mit Schachregeln verlinken und zeigen
+    unsere Seite mit Schachregeln zeigen
+    beide Quelltexte zeigen: unserer sollte deutlich kürzer und übersichtlicher sein 
+    http://www.chessmail.de/pages/fiderules.html
+-->
+    
+    <body>
+        <div class="rulePageFrame">
+            <dom-ruleBig heading="Artikel 1: Das Wesen und die Ziele des Schachspiels"></dom-ruleBig>
+                <dom-ruleSub textnumber="11"></dom-ruleSub>
+                <dom-ruleSub textnumber="12"></dom-ruleSub>
+                <dom-ruleSub textnumber="13"></dom-ruleSub>
+            <dom-ruleBig heading="Artikel 2: Die Anfangsstellung der Figuren auf dem Brett"></dom-ruleBig>
+                <dom-ruleSub textnumber="21"></dom-ruleSub>
+                <dom-ruleSub textnumber="11"></dom-ruleSub>
+                <dom-ruleSub textnumber="11"></dom-ruleSub>
+            <dom-ruleBig heading="Artikel 3: Die Gangarten der Figuren"></dom-ruleBig>
+                <dom-ruleSub textnumber="31"></dom-ruleSub>
+                <dom-ruleSub textnumber="32"></dom-ruleSub>
+                <dom-ruleSub textnumber="33"></dom-ruleSub>
+                <dom-ruleSub textnumber="34"></dom-ruleSub>
+                <dom-ruleSub textnumber="35"></dom-ruleSub>
+                <dom-ruleSub textnumber="36"></dom-ruleSub>
+                <dom-ruleSub textnumber="37"></dom-ruleSub>
+                <dom-ruleSub textnumber="38"></dom-ruleSub>
+                <dom-ruleSub textnumber="39"></dom-ruleSub>
+            <dom-ruleBig heading="Artikel 4: Die Ausführung der Züge"></dom-ruleBig>            
+                <dom-ruleSub textnumber="41"></dom-ruleSub>
+                <dom-ruleSub textnumber="42"></dom-ruleSub>
+                <dom-ruleSub textnumber="43"></dom-ruleSub>
+                <dom-ruleSub textnumber="44"></dom-ruleSub>
+                <dom-ruleSub textnumber="45"></dom-ruleSub>
+                <dom-ruleSub textnumber="46"></dom-ruleSub>
+                <dom-ruleSub textnumber="47"></dom-ruleSub>
+            <dom-ruleBig heading="Artikel 5: Die beendete Partie"></dom-ruleBig>            
+                <dom-ruleSub textnumber="51"></dom-ruleSub>
+                <dom-ruleSub textnumber="52"></dom-ruleSub>
+            
+            
+        </div>   <!--    rulePageFrame  -->
+    </body>
 </html>

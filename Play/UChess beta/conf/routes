@@ -30,6 +30,8 @@ GET         /jswui              controllers.Application.jswui()
 GET        /polymerElements/*file          controllers.Application.fileLoad(rootPath="app/polymerElements", file)
 GET        /bower_components/*file  controllers.Application.fileLoad(rootPath="bower_components", file)
 
+GET        /textForRules/*file          controllers.Application.fileLoad(      rootPath="app/polymerElements/textForRules", file)
+
 # Map static resources from the /public folder to the /assets URL path
 GET         /assets/*file       controllers.Assets.at(path="/public", file)
 GET         /assets/*file       controllers.Assets.versioned(path="/public", file: Asset)

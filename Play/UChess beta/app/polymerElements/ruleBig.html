@@ -1,0 +1,29 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+<link rel="import" type="css" href="rulePage.css">
+
+<dom-module id="dom-ruleBig" attributes="heading">
+    
+    <template>
+        <style>
+            h1 {
+                margin-top:     70px;
+            }
+            
+            .opticalDivisor{
+                color:          rgb(192,192,192);
+            }
+            
+        </style>
+        <div class="opticalDivisor">
+            <p>==================================================================</p>
+        </div>
+        <h1>{{heading}}</h1>
+    </template>
+
+    <script>
+        Polymer({
+          is: "dom-ruleBig"
+        });
+    </script>
+</dom-module>
